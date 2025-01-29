@@ -48,8 +48,8 @@ const StatCounter = ({ stats }) => {
   };
   
   return (
-    <section className='stat-counter'>
-      <div className='container py-8 border-t border-gray-300'>
+    <section className='stat-counter bg-[#ECF3FD]'>
+      <div className='container py-6 border-t border-gray-300'>
         <div className="grid md:grid-cols-4 grid-cols-2 gap-2">
           {displayStats.map((stat, index) => {
             const animatedValue = useCounter(stat.value);

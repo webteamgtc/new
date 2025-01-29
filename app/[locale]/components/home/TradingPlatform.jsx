@@ -8,59 +8,55 @@ export default function TradingPlatform() {
 
   const accountTypes = [
     {
-      iconSrc: "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/img/home/standard.webp",
+      iconSrc: "/account1.webp",
       heading: t("standardAccount.heading"),
+      bgImage: "/account1.webp", // Dynamic background
     },
     {
-      iconSrc: "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/img/home/pro.webp",
+      iconSrc: "/account2.webp",
       heading: t("proAccount.heading"),
+      bgImage: "/account2.webp", // Dynamic background
     },
     {
-      iconSrc: "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/img/home/ecn.webp",
+      iconSrc: "/account3.webp",
       heading: t("ecnAccount.heading"),
+      bgImage: "/account3.webp", // Dynamic background
     },
   ];
-  
+
   return (
-    <section className="md:py-16 3xl:py-28 py-8 bg-gradient-to-bl from-slate-100 via-gray-50 to-zinc-50">
-      <div className="container">
-        <div className="flex flex-col md:flex-row items-center justify-center gap-12">
-          <div className="hidden md:block basis-full md:basis-1/2">
-            <div className="relative w-full h-64 md:h-[500px]">
-              <Image
-                src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/img/home/new-trading.webp"
-                alt=""
-                fill
-                className="object-contain"
-              />
+    <section className="py-10 lg:py-[46px] bg-[#ECF3FD]">
+      <div className="max-w-5xl mx-auto text-center">
+        {/* Section Title */}
+        <h2 className="HeadingH2 mb-5 bg-gradient-to-r from-primary via-secondary to-primary font-medium inline-block text-transparent bg-clip-text">
+          {t("heading")}
+        </h2>
+        <p className="text max-w-6xl mx-auto mb-8">{t("desc")}</p>
+
+        {/* Account Types */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+          {accountTypes.map((account, index) => (
+            <div
+              key={index}
+              className="flex flex-col items-center gap-4 h-80 p-8 bg-contain bg-no-repeat bg-center"
+              style={{ backgroundImage: `url(${account.bgImage})` }} // Dynamic Background
+            >
+              {/* Heading at the Top */}
+              <h4 className="text-primary text-lg uppercase font-medium">
+                {account.heading}
+              </h4>
+
+              {/* Spacer to push button to the bottom */}
+              <div className="flex-grow"></div>
+
+              {/* Button at the Bottom */}
+              <Link href="/account-types" className="bg-[#263f8f] text-white font-medium uppercase w-36 block py-2 hover:bg-secondary hover:text-white transition">
+           
+                  View Detail
+                
+              </Link>
             </div>
-          </div>
-          <div className="md:basis-1/2">
-            <div className="content">
-              <p className="text-secondary text-8xl mb-5">
-                <MdSwitchAccount />
-              </p>
-              <h2 className="HeadingH2 ltr:text-left rtl:text-right bg-gradient-to-r from-primary to-secondary inline-block text-transparent bg-clip-text">{t("heading")}</h2>
-              <p className="text ltr:text-left rtl:text-right mb-5">{t("desc")}</p>
-              <ul className="text ltr:text-left rtl:text-right leading-10">
-                {accountTypes.map((account, index) => (
-                  <li key={index}>
-                    <Link href='/account-types' className="flex justify-start items-center hover:underline cursor-pointer gap-2 pb-2">
-                    <div className="relative w-10 h-10">
-                      <Image
-                        src={account.iconSrc}
-                        alt=""
-                        fill
-                        className="object-contain"
-                      />
-                    </div>
-                    <p className="text text-xl">{account.heading}</p>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>

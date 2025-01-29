@@ -15,6 +15,8 @@ import ClientLogo from "./components/home/ClientLogo";
 import AssesAsset from "./components/home/AssesAsset";
 import TradingPlatform from "./components/home/TradingPlatform";
 import { useParams } from "next/navigation";
+import ClientsNetwork from "./components/home/ClientsNetwork";
+import ClientPayments from "./components/home/ClientPayments";
  
 export default function HomePage() {
   const t = useTranslations("home"); 
@@ -43,47 +45,47 @@ export default function HomePage() {
     {
       name: t("products.title1"),
       description: t("products.desc1"),
-      imageUrl: "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/img/home/icon/icon1.webp",
+      imageUrl: "/icons-new/icons-30.webp",
       alt: "Forex"
     },
     {
       name: t("products.title2"),
       description: t("products.desc2"),
-      imageUrl: "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/img/home/icon/icon7.webp",
+      imageUrl: "/icons-new/icons-31.webp",
       alt: "Crypto CFDs"
     },
     {
       name: t("products.title3"),
       description: t("products.desc3"),
-      imageUrl: "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/img/home/icon/metal-icon.webp",
+      imageUrl: "/icons-new/icons-32.webp",
       alt: "Indices"
     },
     {
       name: t("products.title4"),
       description: t("products.desc4"),
-      imageUrl: "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/img/home/icon/icon8.webp",
+      imageUrl: "/icons-new/icons-33.webp",
       alt: "CFDs"
     },
     {
       name: t("products.title5"),
       description: t("products.desc5"),
-      imageUrl: "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/img/home/icon/icon6.webp",
+      imageUrl: "/icons-new/icons-34.webp",
       alt: "Commodities"
     }, {
       name: t("products.title6"),
       description: t("products.desc6"),
-      imageUrl: "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/img/home/icon/icon5.webp",
+      imageUrl: "/icons-new/icons-35.webp",
       alt: "Indices"
     }, {
       name: t("products.title7"),
       description: t("products.desc7"),
-      imageUrl: "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/img/home/icon/icon4.webp",
+      imageUrl: "/icons-new/icons-36.webp",
       alt: "Indices"
     },
     {
       name: t("products.title8"),
       description: t("products.desc8"),
-      imageUrl: "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/img/home/icon/icon3.webp",
+      imageUrl: "/icons-new/icons-37.webp",
       alt: "Indices"
     },
   ];
@@ -99,9 +101,10 @@ export default function HomePage() {
         <TradingPlatform />
         <SecurityFund />
         <AssesAsset assetData={assetData} title={t("products.heading")} columns={4} />
+        <ClientsNetwork />
         <DirectAccess />
         <Map />
-        <ClientLogo /> 
+        <ClientPayments />
         {/* <CompanyNews/> */}
       </LocationContextProvider>
     </>

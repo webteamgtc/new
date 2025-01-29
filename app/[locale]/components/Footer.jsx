@@ -162,10 +162,6 @@ const Footer = () => {
       title: t("policy.label"),
       links: [
         {
-          name: t("policy.menu10"),
-          link: "/gtc-financial-consultancy-llc",
-        },
-        {
           name: t("policy.menu1"),
           link: "/privacy-policy",
         },

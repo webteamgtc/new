@@ -97,7 +97,7 @@ export default function Markets() {
 
   const iframeContainerStyle = {
     position: 'relative',
-    height: '500px'
+    height: '452px'
   };
 
   const iframeOverlayStyle = {
@@ -113,12 +113,13 @@ export default function Markets() {
 
   return (
     <>
-      <section className="md:py-16 3xl:py-20 py-8 container border-b border-t border-b-gray-300 h-[750px]">
-       <div className="text-center">
-        <h2 className="HeadingH2 mb-8 bg-gradient-to-r from-primary to-secondary inline-block text-transparent bg-clip-text text-center">
+      <section className="pt-10 lg:pt-[46px] border-b border-t border-b-gray-300 bg-[url('/gtcfx-bg.webp')] bg-cover bg-center">
+      <div className="container">
+       <div className="text-center mb-6">
+        <h2 className="HeadingH2 mb-5 bg-gradient-to-r from-primary via-secondary  from-10% to-primary to-90% font-medium inline-block text-transparent bg-clip-text text-center">
           {t("title")}
         </h2>
-        <p className="text-accent md:text-base text-sm 2xl:text-[17px] text-center max-w-4xl mx-auto">{t("sub_title")}
+        <p className="text-accent md:text-base text-sm 2xl:text-[17px] text-center max-w-6xl mx-auto">{t("sub_title")}
         </p>
         </div>
       
@@ -135,6 +136,7 @@ export default function Markets() {
         </div>
         {/* Add this div to cover the bottom 30px */}
         <div style={iframeOverlayStyle}></div>
+      </div>
       </div>
     </section>
     </>
