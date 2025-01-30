@@ -59,13 +59,16 @@ const WhyGTC = () => {
                 key={index}
                 className="text-center md:flex md:flex-col items-center justify-center gap-4 md:w-96"
               >
-                <button className="bg-gray-400 text-xs rounded-full text-white px-3 h-6">
+                <button className="bg-gray-400 text-[10px] md:text-xs rounded-full text-white px-3 h-5">
                   {feature.miniheading}
                 </button>
-                <h3 className="bg-gradient-to-r from-secondary via-[#dcc8b2]  from-10% to-secondary to-90% my-2 text-transparent bg-clip-text md:text-lg xl:text-xl 3xl:text-[24px] text-xs  m-0 p-0 text-center flex flex-row gap-2 items-center ">
-                    <p className="text-white text-xl md:text-3xl">{feature.icon}</p>
-                    {feature.heading}
+                <div className="text-center flex flex-row gap-2 items-center  justify-center">
+                <p className="text-white text-xl md:text-3xl">{feature.icon}</p>
+                <h3 className="bg-gradient-to-r from-secondary via-[#dcc8b2]  from-10% to-secondary to-90% my-2 text-transparent bg-clip-text md:text-lg xl:text-xl 3xl:text-[24px] text-xs  m-0 p-0 ">
+                     {feature.heading}
                 </h3>
+                </div>
+                
                 <p className=" text-[#fff] md:text-base xl:text-base text-[9px] max-w-xs mx-auto m-0 text-center">
                   {feature.text}
                 </p>
@@ -86,13 +89,15 @@ const WhyGTC = () => {
                 key={index}
                 className="text-center md:flex md:flex-col items-center justify-center gap-4 md:w-96"
               >
-                <button className="bg-gray-400 text-xs rounded-full text-white px-3 h-6">
+                <button className="bg-gray-400 text-[10px] md:text-xs rounded-full text-white px-3 h-5">
                   {feature.miniheading}
                 </button>
-                <h3 className="bg-gradient-to-r from-secondary via-[#dcc8b2]  from-10% to-secondary to-90%  my-2 text-transparent bg-clip-text md:text-lg xl:text-xl 3xl:text-[24px] text-xs  m-0 p-0 text-center flex gap-2 items-center  ">
+                <div className="text-center flex flex-row gap-2 items-center  justify-center">
                 <p className="text-white text-xl md:text-3xl">{feature.icon}</p>
-                  {feature.heading}
+                <h3 className="bg-gradient-to-r from-secondary via-[#dcc8b2]  from-10% to-secondary to-90% my-2 text-transparent bg-clip-text md:text-lg xl:text-xl 3xl:text-[24px] text-xs  m-0 p-0 ">
+                     {feature.heading}
                 </h3>
+                </div>
                 <p className="text-[#fff] md:text-base xl:text-base text-[9px] m-0 text-center">
                   {feature.text}
                 </p>

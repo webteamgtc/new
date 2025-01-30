@@ -17,6 +17,7 @@ import TradingPlatform from "./components/home/TradingPlatform";
 import { useParams } from "next/navigation";
 import ClientsNetwork from "./components/home/ClientsNetwork";
 import ClientPayments from "./components/home/ClientPayments";
+import LiquiditySolutions from "./components/home/LiquiditySolutions";
  
 export default function HomePage() {
   const t = useTranslations("home"); 
@@ -102,8 +103,7 @@ export default function HomePage() {
         <SecurityFund />
         <AssesAsset assetData={assetData} title={t("products.heading")} columns={4} />
         <ClientsNetwork />
-        <DirectAccess />
-        <Map />
+        <LiquiditySolutions />
         <ClientPayments />
         {/* <CompanyNews/> */}
       </LocationContextProvider>

@@ -4,7 +4,7 @@ import LiveAccountButton from "../liveAccountButton";
 
 const ClientPayments = () => {
     return (
-        <section className="py-10 lg:py-[40px] border-b border-t border-b-gray-300 bg-[#ECF3FD]">
+        <section className="py-10 lg:py-[40px] border-b border-t border-b-gray-300 bg-[#fff]">
             <div className="container mx-auto px-6 lg:px-16">
                 <div className="flex flex-col md:flex-row justify-between items-center gap-10">
                     

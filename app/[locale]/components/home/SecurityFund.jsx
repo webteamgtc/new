@@ -11,9 +11,9 @@ const SecurityFund = () => {
     <section className="securityFund py-3 pb-5 text-white border-t border-b border-gray-300 shadow-3xl bg-gradient-to-t from-[#243586] from-10% via-[#222e73] via-30% to-[#141b43]">
       <div className="container">
         <div className="flex flex-row justify-start items-start gap-1">
-          <div className="basis-1/6 relative h-10 md:h-14 w-full justify-start">
+          <div className="basis-1/6 relative h-10 md:h-16 w-full justify-start">
             <Image
-              src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/img/home/lock.webp"
+              src="/icons-new/securty.webp"
               fill
               alt="Security"
               className="object-contain"
