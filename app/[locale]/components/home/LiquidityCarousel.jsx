@@ -25,14 +25,14 @@ const LiquidityCarousel = () => {
         breakpoints={{
           640: { slidesPerView: 1 },
           768: { slidesPerView: 2 },
-          1024: { slidesPerView: 3 },
-          1280: { slidesPerView: 4 }
+          1024: { slidesPerView: 4 },
+          1280: { slidesPerView: 5 }
         }}
         
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
-            <div className="p-6 border  shadow-md bg-white text-center h-[250px] items-center flex flex-col">
+             <div className="p-6 border shadow-md bg-white text-center h-[250px] flex flex-col justify-center items-center">
               <h3 className="text-lg font-bold text-gray-800">{slide.title}</h3>
               <p className="text-gray-600 text-sm mt-2">{slide.description}</p>
             </div>

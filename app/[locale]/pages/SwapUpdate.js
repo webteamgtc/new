@@ -111,7 +111,7 @@ const SwapUpdatePage = () => {
     {"symbol": "ZARJPY", "swap type": "in points", "swap long": -2.35, "swap short": -2.35},
     ],
     Metal: [
-        { symbol: "XAUUSD", "swap type": "in points", "swap long": -25, "swap short": 11 },
+        { symbol: "XAUUSD", "swap type": "in points", "swap long": 10.75, "swap short": -25.5 },
         { symbol: "XAGUSD", "swap type": "in points", "swap long": -5.19, "swap short": 0.15 },
         { symbol: "XAUEUR", "swap type": "in points", "swap long": -27.7, "swap short": 0.78 },
         { symbol: "XAUAUD", "swap type": "in points", "swap long": -27.7, "swap short": 0.78 },
@@ -169,6 +169,8 @@ const SwapUpdatePage = () => {
         <div className='container'>
             <div className='text-center'>
             <h2 className="HeadingH2 mb-8 bg-gradient-to-r from-primary to-secondary inline-block text-transparent bg-clip-text text-center">{t("heading1")}</h2>
+            <p>{t("des1")}</p>
+            <p>{t("des2")}</p>
             </div>
             <div className='inner-information'>
                 <SwapTab data={data} />

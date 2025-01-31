@@ -47,7 +47,7 @@ const TopBar = ({ currentLanguage, isAr, href }) => {
     const registerLink = `${baseLink}`;
 
     return (
-        <section className="hidden md:block border-b border-gray-200 bg-gray-100" id="register1">
+        <section className="hidden md:block border-b border-gray-200 bg-[#ECF3FD]" id="register1">
             <div className="container flex flex-row justify-between items-center">
                 <div className="content-top border-l pl-2 flex flex-row gap-2">
                     <p className="text-[14px] font-[400] flex gap-2 py-4 ">

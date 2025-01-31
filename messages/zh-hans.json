@@ -1,42 +1,42 @@
 {
   "navigation": {
     "tobbar": {
-      "liclabel": "SCA牌照",
-      "partner": "与纳斯达克上市公司-蓝帽子（BHAT）达成合作",
-      "member": "账户登录",
-      "account": "开立账户",
-      "rgister": "申请合作伙伴"
+      "liclabel": "SCA许可证",
+      "partner": "与NASDAQ 上市公司BHAT合作",
+      "member": "会员登录",
+      "account": "创建账户",
+      "rgister": "注册成为合作伙伴"
     },
     "about": {
       "lable": "关于我们",
-      "des": "以客户为核心，全球监管，服务客户895,000+",
+      "des": "我们的核心宗旨是客户至上。在全球法规的监管下，我们自豪地为全球985,000多名客户提供服务。",
       "firstcolumn": {
         "heading": "关于GTCFX",
-        "option1": "关于GTC集团",
-        "option2": "为什么选择GTC集团",
+        "option1": "关于GTCFX",
+        "option2": "为何选择GTC",
         "option3": "GTC监管"
       },
       "secondcolumn": {
-        "heading": "全球影响力",
-        "option1": "GTC集团全球足迹",
-        "option2": "GTC集团所获奖项",
+        "heading": "全球业务",
+        "option1": "GTCFX全球业务",
+        "option2": "GTCFX奖项",
         "option3": "资金安全"
       },
       "thirdcolumn": {
-        "heading": "高光时刻",
-        "option1": "公司新闻",
-        "option2": "招贤纳士",
+        "heading": "亮点",
+        "option1": "GTCFX最新动态",
+        "option2": "工作机会",
         "option3": "联系我们"
       }
     },
     "account": {
       "lable": "账户",
-      "des": "资深交易者。",
+      "des": "我们提供专为新手和资深交易者定制的超低门槛专业账户",
       "firstcolumn": {
         "heading": "我们提供",
-        "option1": "开立真实账户",
+        "option1": "开设实盘账户",
         "option3": "免费模拟账户",
-        "option2": "为您的账户注资"
+        "option2": "为您的账户充值"
       },
       "secondcolumn": {
         "heading": "GTC资产",
@@ -44,139 +44,139 @@
         "option2": "文件"
       },
       "thirdcolumn": {
-        "heading": "伊斯兰业务",
-        "option1": "GTC夏日淘金节日"
+        "heading": "促销活动",
+        "option1": "最高可获20%的赠金"
       }
     },
     "trading": {
-      "lable": "交易与平台",
-      "des": "无重新报价",
+      "lable": "交易和平台",
+      "des": "提供最高1:2000的杠杆，以及从0点开始的最低点差。\n提供多样化的交易产品，涵盖超过27,000种货币对、股票、贵金属、能源和股指，具有竞争力的点差、无拒单、无滑点，且交易执行安全。",
       "firstcolumn": {
-        "heading": "交易品种",
+        "heading": "产品",
         "option1": "外汇",
         "option2": "贵金属",
-        "option3": "股票差价合约",
+        "option3": "股票 CFD",
         "option4": "大宗商品",
-        "option5": "股票指数",
+        "option5": "股指",
         "option6": "能源",
-        "option7": "一揽子股票产品"
+        "option7": "股票"
       },
       "secondcolumn": {
         "heading": "平台",
-        "option1": "MT4交易平台",
-        "option2": "MT5交易平台",
+        "option1": "MT4 交易平台",
+        "option2": "MT5 交易平台",
         "option3": "下载交易平台",
-        "option4": "平台",
-        "option5":"动态杠杆",
-        "option6":"掉期更新"
+        "option4": "cTrader 平台"
       },
       "thirdcolumn": {
         "heading": "交易",
-        "option1": "市场新闻",
-        "option2": "财经日历和新闻",
-        "option3": "交易时间和节假日",
-        "option4": "专业术语/常见问题"
+        "option1": "市场动态",
+        "option2": "经济日历与新闻",
+        "option3": "市场时间与假期",
+        "option4": "术语/常见问题解答",
+        "option5": "动态杠杆",
+        "option6": "隔夜利息更新"
       }
     },
     "partner": {
-      "lable": "与我们合作",
-      "des": "通过我们的合作伙伴计划，增加业务并扩大客户规模，我们的ib计划旨在助您加速业务增长、提高盈利能力，释放业务潜能、实现收益最大化",
+      "lable": "我们的合作伙伴",
+      "des": "通过我们的合作伙伴计划，您可以提升业务能力并扩展客户网络。我们的IB计划旨在帮助您释放全部业务潜力，最大化盈利，并加速增长和提升盈利能力。",
       "firstcolumn": {
-        "option1": "介绍经纪商 (IB)"
+        "option1": "介绍经纪人（IB）"
       },
       "secondcolumn": {
-        "option1": "Prime合作伙伴计划"
+        "option1": "高级合作伙伴计划"
       },
       "thirdcolumn": {
-        "option1": "营销联盟计划"
+        "option1": "联盟计划"
       }
     },
     "technology": {
-      "lable": "Prime客户与技术优势",
-      "des": "我们致力于运用最新的尖端技术，确保Prime客户享受丝滑操作体验。我们与顶级银行紧密合作，提供卓越的流动性，保证交易过程快速、安全。我们追求卓越，始终致力于提供卓越的服务，精准满足客户不断变化的需求。",
+      "lable": "顶尖技术",
+      "des": "我们利用尖端技术和最新成果，确保操作无缝对接。与顶级银行合作，确保提供最佳流动性，使交易既迅速又安全。我们致力于创新，力求提供无与伦比的服务，精准满足客户的动态需求。",
       "firstcolumn": {
-        "heading": "GTC 集团 Prime客户",
-        "option1": "流动性与尖端技术相结合",
-        "option2": "跟单交易",
-        "option3": "自营交易"
+        "heading": "GTCFX 首选",
+        "option1": "流动性与技术",
+        "option2": "复制交易",
+        "option3": "专业交易"
       },
       "secondcolumn": {
         "heading": "交易工具",
-        "option1": "PAMM（百分比分配管理账户）",
-        "option2": "MAM（多账户管理账户）",
-        "option3": "Signal Centre 信号插件",
-        "option4": "虚拟服务器"
+        "option1": "PAMM 账户",
+        "option2": "MAM 账户",
+        "option3": "信号中心工具",
+        "option4": "虚拟专用服务器"
       },
       "thirdcolumn": {
         "heading": "分析",
-        "option1": "专家分析",
-        "option2": "Auto Chart List 信号插件",
-        "option3": "Acuity 信号插件"
+        "option1": "专家市场分析",
+        "option2": "自动图表分析工具",
+        "option3": "Acuity精准交易工具"
       }
     },
     "login": "会员登录",
     "new_client_portal": "会员登录",
-    "old_client_portal": "旧客户端"
+    "old_client_portal": "老客户门户"
   },
   "common": {
-    "liveAccount": "开设真实账户",
+    "liveAccount": "开设实盘账户",
     "demoAccount": "免费模拟账户"
   },
   "home": {
     "metaData": {
-      "title": "全球顶级STP经纪商 | GTCFX",
-      "des": "与阿联酋顶级STP经纪商在线交易外汇、股票、能源、指数和金属，从低点差、超快执行等优势中获益。立即交易！"
+      "title": "与排名第一的STP经纪商GTCFX在线交易外汇和差价合约",
+      "des": "使用GTCFX进行外汇、股票、能源、指数和贵金属的在线交易，作为全球领先的STP经纪商，您将享受到超低点差、超快执行等更多优势。立即开始交易！"
     },
     "hero": {
       "title1": "可信赖",
-      "desc1": "以客户需求为核心，我们业务蓬勃发展，维持金融衍生品领域的全球领导地位，赢得世界各地的信赖与赞誉",
-      "title2": "高监管",
-      "desc2": "GTC 集团把遵守全球监管放在首位，在不同的国家和地区受到监管，主动建立信任、肩负责任。",
-      "title3": "全球性",
-      "desc3": "我们在全球100 多个国家/地区服务超 895,000 位客户，提供多样化的产品，并确保财务稳健。",
-      "liveAccount": "开立真实账户",
+      "desc1": "我们稳固了在全球金融衍生品领域的领导地位，持续增长，始终专注于客户需求，赢得了全球的信任。",
+      "title2": "受监管",
+      "desc2": "GTCFX优先遵守全球监管要求，促进在多元国际市场中建立信任和责任机制。",
+      "title3": "全球化",
+      "desc3": "我们为全球98.5万客户提供多样化的产品服务，确保覆盖100多个国家的金融服务稳定。",
+      "liveAccount": "开设实盘账户",
       "partnerAccount": "成为合作伙伴",
-      "fact_no1": "895,000位",
-      "fact_desc1": "服务过的客户",
-      "fact_no2": "85000家",
-      "fact_desc2": "种交易产品",
-      "fact_no3": "+",
-      "no3":"300",
-      "no4":"28",
-      "fact_syn1": "",
-      "fact_desc3": "分支机构",
-      "fact_no4": "$",
-      "fact_desc4": "每月交易"
+      "fact_no1": 985000,
+      "fact_desc1": "服务客户数",
+      "fact_no2": "27,000",
+      "fact_desc2": "交易产品",
+      "no3": "300",
+      "fact_no3": "",
+      "fact_syn1": "$",
+      "fact_desc3": "全球服务范围",
+      "no4": "135",
+      "fact_no4": "十亿",
+      "fact_desc4": "每月交易量"
     },
     "whyGTC": {
-      "title": "全球领先的在线交易平台是您投资的不二选择。",
-      "desc": "用最稳定的平台交易27,000种金融产品，我们的MT4和MT5为您提供最具竞争力的点差。", 
+      "title": "与全球顶级的在线交易平台进行投资",
+      "desc": "使用最稳定的交易平台交易超过27,000种金融产品，我们的MetaTrader平台提供极具优势的点差。",
       "first": {
         "title": "点差",
-        "heading": "最低点差",
-        "description": "行业内最低点差，外汇0点起、黄金5美分起"
+        "heading": "超低点差",
+        "description": "提供行业内最低点差，外汇0点起，黄金5美分起"
       },
       "second": {
         "title": "产品",
         "heading": "交易产品",
-        "description": "超27000种产品涵盖7大交易市场"
+        "description": "访问跨越七大交易市场的超过27,000种金融产品"
       },
       "third": {
         "title": "杠杆",
-        "heading": "最大杠杆",
-        "description": "杠杆最大高至1:2000倍，最低保证金要求0.1%起"
+        "heading": "最佳杠杆",
+        "description": "提供最高1:2000的杠杆，最低保证金要求仅需0.1%"
       },
       "fourth": {
         "title": "执行",
         "heading": "超快执行",
-        "description": "顶级流动性，确保交易在10ms内执行"
+        "description": "以顶级流动性进行交易，确保快速且安全的执行，仅需10毫秒"
       },
-      "desc2": "让您的利润高效最大化",
-      "open_live_account": "开立真实账户"
+      "desc2": "最大化您的利润",
+      "open_live_account": "开设实盘账户"
     },
     "accountType": {
       "heading": "账户类型",
-      "desc": "高效获利",
+      "desc": "开设实盘账户并交易我们具有竞争力的金融产品，享受最低点差，充分利用汇率波动，最大化您的利润。",
       "standardAccount": {
         "heading": "标准账户"
       },
@@ -186,60 +186,60 @@
       "ecnAccount": {
         "heading": "ECN账户"
       },
-      "view_more": "点击了解更多",
-      "open_live_account": "开立真实账户"
+      "view_more": "点击查看更多",
+      "open_live_account": "开设实盘账户"
     },
     "security_of_funds": {
       "title": "资金安全",
-      "desc": "GTC集团在全球知名的保险市场FDRC.为每个账户投保高达1百万美元保额的保险，以确保客户的资金安全"
+      "desc": "GTCFX已为客户资金投保，提供最高达2万欧元的保障。详情请点击此处"
     },
     "products": {
-      "heading": "涵盖8类市场，超 27,000 种交易品种",
-      "title1": "外汇交易",
-      "desc1": "全球所有的货币对",
-      "title2": "黄金交易",
+      "heading": "可访问8大资产市场，交易产品超过27,000种",
+      "title1": "外汇",
+      "desc1": "全球货币对",
+      "title2": "黄金",
       "desc2": "发现优势",
       "title3": "贵金属",
-      "desc3": "银、钯以及更多",
+      "desc3": "白银、钯金等",
       "title4": "能源差价合约",
-      "desc4": "石油、天然气以及所有主要能源",
+      "desc4": "石油、天然气及所有主要能源",
       "title5": "大宗商品",
       "desc5": "全球主要大宗商品",
-      "title7": "一揽子股票产品",
-      "desc7": "可多、可空、0佣金、低保证金",
-      "title6": "股票差价合约",
-      "desc6": "超600家公司",
-      "title8": "股票指数",
-      "desc8": "全球主要指数"
+      "title7": "股票",
+      "desc7": "无佣金买卖股票，且保证金低",
+      "title6": "股票",
+      "desc6": "超过600家公司",
+      "title8": "股指",
+      "desc8": "全球主要股指"
     },
     "liquidity_provider": {
-      "heading": "直通顶级流动性提供商",
-      "desc": "GTC集团为您链接全球顶级外汇流动性提供商，为您的企业提供尖端技术、充足的流动性、闪电般的执行速度和专家支持。我们坚持交易过程完全透明和交易匿名原则，并提供极具竞争力的交易成本",
-      "point1": "低点差、低佣金",
+      "heading": "直接接入顶级流动性提供商",
+      "desc": "GTCFX为您提供顶级Tier-1外汇流动性平台的市场接入服务，配备先进技术、丰富的流动性储备、极速执行和专业支持。我们坚持交易过程的完全透明和匿名性，同时提供极具竞争力的交易成本。",
+      "point1": "低点差和佣金",
       "point2": "超快执行",
-      "point3": "市场深度最高可达10个等级",
-      "point4": "快速集成",
-      "point5": "超快速价格反馈",
-      "point6": "迅速成交机制"
+      "point3": "提供最多10级市场深度",
+      "point4": "快速系统整合",
+      "point5": "超快价格更新",
+      "point6": "快速开户流程"
     },
     "global_presence": {
       "heading": "我们的全球业务",
-      "desc": "在 GTC，我们拥有一支全球团队，业务遍及全球 22 个以上国家和地区。从繁华的城市到偏远的角落，我们多元化的网络使我们能够与全球各地的客户联系，无论他们身在何处，都可以提供个性化的金融解决方案。在 GTC，我们对客户服务的承诺永无止境。",
+      "desc": "在GTCFX，我们是一支全球团队，业务遍布全球22个以上国家。从繁华城市到偏远角落，我们多元化的网络使我们能够与全球客户连接，为他们提供个性化的金融解决方案，我们对客户的承诺没有界限。",
       "uae": "阿联酋",
       "uk": "英国",
       "china": "中国",
-      "vanuato": "瓦努阿托",
+      "vanuato": "瓦努阿图",
       "vietnam": "越南",
       "pakistan": "巴基斯坦",
       "malaysia": "马来西亚",
       "hong_kong": "澳大利亚",
-      "indonesia": "印度尼西亚",
+      "indonesia": "印尼",
       "india": "印度",
       "egypt": "埃及",
-      "jordan":"约旦",
+      "jordan": "约旦",
       "palestine": "巴勒斯坦",
       "ksa": "沙特阿拉伯",
-      "chile": "智利  ",
+      "chile": "智利",
       "usa": "美国",
       "maxico": "墨西哥",
       "taiwan": "英国",
@@ -251,16 +251,16 @@
     },
     "markets_ct": {
       "title": "市场概览",
-      "sub_title": "掌握关键市场数据，覆盖超过3000个市场。获取最新动态、交易员观点、点差、价格走势等信息。"
+      "sub_title": "获取全球3000多个市场的重要数据，关注信息更新。获取最新动态、交易者动态、点差、价格走势等更多信息。"
     },
     "tabsMarter": {
-        "title1": "最热门交易品种",
-        "title2": "外汇",
-        "title3": "大宗商品",
-        "title4": "指数"
-      },
-    "our-payment": "付款方式、接受的卡类型和货币：",
-  "our-payment2": "我们接受使用Visa和MasterCard信用卡/借记卡以AED（或支付部分列出的任何其他可用货币）在线支付"
+      "title1": "最活跃交易",
+      "title2": "外汇",
+      "title3": "大宗商品",
+      "title4": "股指"
+    },
+    "our-payment": "\n支付方式、支持的卡种及货币：",
+    "our-payment2": "我们接受使用Visa和MasterCard的信用卡和借记卡在线支付，支付币种为AED（以及支付页面列出的其他可用货币）。"
   },
   "about": {
     "metaData": {
@@ -275,8 +275,8 @@
       "desc1_2": "在金融科技领域，GTCFX已成为一股重要力量，其增长动力源自于对先进技术的持续投入以及对监管标准的严格遵循。多年来，GTCFX在金融服务业内赢得了可靠与卓越的声誉。",
       "desc1_3": "",
       "heading2": "受监管",
-      "desc2_1": "GTCFX在严格的监管监督下运营，其品牌旗下的多家公司在全球不同地区均受到监管。该公司严格遵守反洗钱（AML）和了解你的客户（KYC）高标准实践，从而在金融科技行业中保持了其诚信度和可靠性。",
-      "desc2_2": "",
+      "desc2_1": "本网站服务由GTC Global Ltd及GTC Global Trade Capital Co. Limited共同提供。两家运营主体分别在毛里求斯与瓦努阿图金融监管框架下持牌经营，严格执行反洗钱（AML）及客户身份识别（KYC）合规标准，始终秉持金融科技行业的诚信准则与运营可靠性。",
+      "desc2_2": "GTC金融集团旗下其他实体机构均根据属地监管要求，制定并实施符合当地法律法规的反洗钱（AML）及反恐融资（CTF）管理制度。",
       "heading3": "经验丰富",
       "desc3": "自成立以来，我们已在交易领域牢固树立了专业地位。在发展历程中，我们一直是金融服务行业的开拓者，不断推出创新卓越的产品、服务和交易平台，树立了新的标杆。",
       "heading4": "受信赖",
@@ -346,11 +346,11 @@
     },
     "gtc-regulations": {
       "metaData": {
-        "title": "监管与认证 | GTCFX",
+        "title": "GTC金融集团全球业务 | GTCFX",
         "des": "在GTCFX，我们遵守金融监管机构的要求，以维持我们的信誉和透明度。点击此处了解更多关于我们的监管信息。"
       },
-      "title": "GTC附属公司监管与合规",
-      "des": "GTC Group LLC-FZ，一家在阿联酋注册的有限责任公司，及其全资子公司和共同利益关联实体（统称“GTC Group”，其中部分实体以“GTCFX”名义运营），在各自司法管辖区的适用法律、政府规定和监管框架下运营",
+      "title": "GTC金融集团全球业务",
+  "des": "由阿联酋注册的GTC Group LLC-FZ作为控股主体，GTC金融集团通过全球多持牌实体开展业务。各实体依据属地监管牌照权限提供差异化金融服务，并由专业团队独立运营。本网站所涉金融产品与服务均由GTC Global Ltd（毛里求斯）及GTC Global Trade Capital Co. Limited（瓦努阿图）具体提供。",
       "sub_title": "关于GTC附属公司运营的信息",
       "regulation1_1": "证券与商品管理局",
       "regulation1_2": "证券与商品管理局",
@@ -360,7 +360,7 @@
       "regulation2_1": "ASIC",
       "regulation2_2": "澳大利亚证券投资委员会",
       "regulation2_3": "澳大利亚证券投资委员会（ASIC）",
-      "regulation2_4": "GTC Global PTY LTD受澳大利亚证券投资委员会（ASIC）监管，许可证号为496371",
+      "regulation2_4": "GTC Global (Australia) Pty Ltd持有澳大利亚金融服务牌照（AFSL 496371），专注于为澳大利亚客户提供金融教育服务。官网：",
       "regulation3_1": "FSCM",
       "regulation3_2": "毛里求斯金融服务委员会（FSCM）",
       "regulation3_3": "毛里求斯金融服务委员会（FSCM）",
@@ -378,7 +378,8 @@
       "regulation6_1": "SFPL",
       "regulation6_2": "南非专有有限公司（SFPL）",
       "regulation6_3": "南非专有有限公司（SFPL）",
-      "regulation6_4": "GTC Global South Africa Proprietary Limited（注册号：2020/810937/07），是一家依据南非法律正式注册的私营公司。"
+      "regulation6_4": "GTC Global South Africa Proprietary Limited（注册号：2020/810937/07），是一家依据南非法律正式注册的私营公司。",
+    "notice": "GTC金融集团为客户提供多元化的金融服务。集团内各实体因独立运营而持有不同的牌照及服务范围。如需了解您所对接的具体实体信息，欢迎随时联系我们。"
     },
     "global-presence": {
       "metaData": {
@@ -493,200 +494,200 @@
   "accounts": {
     "live-account": {
       "metaData": {
-        "title": "开立真实账户 | GTCFX",
-        "des": "快速开通您的GTCFX真实交易账户。探索外汇、差价合约交易，获得专家市场见解。你的成功从这里开始！"
+        "title": "开设实盘账户",
+        "des": "立即开设实盘账户。探索外汇、差价合约以及专家指导。您的成功从这里开始！"
       },
-      "title": "申请真实交易账户",
-      "sub_title": "便捷开户和快速入金",
-      "fast": "便捷开户",
-      "instant": "&快速资金",
+      "title": "实盘账户申请",
+      "sub_title": "快速开户&即时到账",
+      "fast": "快速开户",
+      "instant": "即时到账",
       "products": {
-        "heading": "进入 8 类资产市场，超 27,000 种交易品种",
-        "title1": "外汇交易",
-        "desc1": "所有全球货币对",
-        "title2": "黄金交易",
+        "heading": "可访问8大市场，交易产品超过27,000种",
+        "title1": "外汇",
+        "desc1": "全球货币对",
+        "title2": "黄金",
         "desc2": "发现优势",
         "title3": "贵金属",
-        "desc3": "银、钯等",
+        "desc3": "白银、钯金等",
         "title4": "能源差价合约",
-        "desc4": "石油、天然气和所有主要能源",
-        "title5": "一揽子股票产品",
-        "desc5": "糖、可可、小麦和其它",
-        "title6": "股票差价合约",
+        "desc4": "石油、天然气及所有主要能源",
+        "title5": "股票",
+        "desc5": "糖、可可、小麦等",
+        "title6": "股票",
         "desc6": "超过600家公司",
         "title7": "大宗商品",
         "desc7": "全球主要大宗商品",
-        "title8": "股票指数",
-        "desc8": "全球主要指数"
+        "title8": "股指",
+        "desc8": "全球主要股指"
       }
     },
     "deposit": {
       "metaData": {
-        "title": "账户入金 | GTCFX",
-        "des": "选择适合您的方式为您的账户入金。探索外汇、差价合约交易，获得专家市场见解。你的成功从这里开始！"
+        "title": "为账户充值丨GTCFX",
+        "des": "轻松为账户充值。探索外汇、差价合约以及专家指导。您的成功从这里开始！"
       },
       "banner": {
-        "heading": "给您的账户入金",
-        "subHeading": "选择适合您的方式为您的账户入金。"
+        "heading": "为账户充值丨GTCFX",
+        "subHeading": "轻松为账户充值。"
       },
       "fundAccount": {
-        "title": "如何入金并开始交易",
-        "sub-title": "参照以下步骤为您的账户入金并开始交易。",
+        "title": "如何为账户充值&立即开始交易",
+        "sub-title": "按照以下步骤为账户充值，并开始交易",
         "option1": {
-          "title": "1，登录",
-          "des": "登录您的客户后台"
+          "title": "1.登录",
+          "des": "登录您的账户"
         },
         "option2": {
-          "title": "2，入金",
-          "des": "您可以点击屏幕上方的“快速入金”图标或点击屏幕左侧菜单中的“存入资金”。"
+          "title": "2.入金",
+          "des": "点击钱包或屏幕左上角的“入金”"
         },
         "option3": {
-          "title": "3.选择付款方式",
-          "des": "浏览入金类别，然后单击您喜欢的付款方式。"
+          "title": "3.选择支付方式",
+          "des": "浏览资金类别，并选择您偏好的支付方式"
         }
       },
       "paymentMethod": {
-        "title": "不同的支付方式",
-        "sub-title": "要想快速简单地为您的交易账户提供资金，请选择以下付款方式之一。",
+        "title": "不同的充值方式",
+        "sub-title": "方便快速的为账户充值，请选择以下支付方式之一",
         "option1": {
           "title": "支付方式",
-          "des": "我们亦接受一系列安全的在线支付渠道，这些渠道会因您的国家/地区而异。"
+          "des": "支持您所在国家的安全在线支付方式"
         },
         "option2": {
           "title": "钱包支付",
-          "des": "各种入金方式，包括信用卡、苹果支付、谷歌支付和其他钱包"
+          "des": "信用卡、Apple Pay、Google Pay以及其他电子钱包"
         },
         "option3": {
           "title": "银行转账",
-          "des": "电汇至我们的银行。"
+          "des": "接受银行电汇转账"
         }
       }
     },
     "account_types": {
       "metaData": {
-        "title": "账户类型 | GTCFX",
-        "des": "开立真实账户，体验我们的产品优势，享受最具竞争力的点差，解锁您的盈利技能"
+        "title": "账户类型丨GTCFX",
+        "des": "开设实盘账户并交易我们具有竞争力的金融产品，享受最低点差，解锁盈利潜力。"
       },
       "title": "账户类型",
-      "subtitle": "开立真实账户，体验我们的产品优势，享受最具竞争力的点差，解锁您的盈利技能。抓住汇率波动机会，最大化您的盈利空间。",
+      "subtitle": "开设实盘账户并交易我们具有竞争力的金融产品，享受最低点差。充分利用汇率波动，最大化您的利润。",
       "standard_account": {
         "title": "标准账户",
-        "point1": "无最低开户金额要求",
-        "point2": "杠杆高达1:2000",
-        "point3": "平均点差 1.4 点",
+        "point1": "无最低入金要求",
+        "point2": "最高杠杆可达1:2000",
+        "point3": "平均点差1.4个点",
         "point4": "0佣金",
-        "point5": "安全、即时、快速执行",
-        "point6": "直通顶级银行",
-        "point7": "进入 7 个市场，拥有超过 25,000 种交易品种",
-        "point8": "无交易员干预",
+        "point5": "安全、即时且快速的交易执行",
+        "point6": "直接接入顶级银行",
+        "point7": "可访问7大市场，交易产品超过27,000种",
+        "point8": "无做市商干预",
         "point9": "负余额保护",
         "point10": "无交易限制",
-        "point11": "无滑点*",
+        "point11": "无价格滑点",
         "point12": "无重新报价",
-        "point13": "无拒绝交易",
-        "point14": "MT4/MT5交易平台可用",
-        "point15": "MAM, PAMM, API 可用"
+        "point13": "无拒单",
+        "point14": "MetaTrader（MT）交易平台",
+        "point15": "提供MAM、PAMM和API"
       },
       "pro_account": {
         "title": "专业账户",
-        "point1": "开户低至 50 美元起",
-        "point2": "杠杆高达1:2000",
-        "point3": "平均点差 0.9 点",
-        "point4": "0佣金",
-        "point5": "安全、即时、快速执行",
-        "point6": "直接连通顶级银行",
-        "point7": "进入 7 大市场，拥有超过 27,000 种交易品种",
-        "point8": "无交易员干预",
+        "point1": "最低入金50美元起",
+        "point2": "最高杠杆可达1:2000",
+        "point3": "平均点差0.9个点",
+        "point4": "无佣金",
+        "point5": "安全、即时且快速的交易执行",
+        "point6": "直接接入顶级银行",
+        "point7": "可访问7大市场，交易产品超过27,000种",
+        "point8": "无做市商干预",
         "point9": "负余额保护",
         "point10": "无交易限制",
-        "point11": "无滑点*",
+        "point11": "无价格滑点*",
         "point12": "无重新报价",
         "point13": "专属客户经理",
-        "point14": "MAM, PAMM, API 可用",
-        "point15": "80+ 技术分析工具",
-        "point16": "无拒绝交易",
-        "point17": "MT4/MT5交易平台可用"
+        "point14": "提供 MAM、PAMM、API",
+        "point15": "80+技术分析工具",
+        "point16": "无拒单",
+        "point17": "MetaTrader（MT）交易平台"
       },
       "ecn_account": {
         "title": "ECN账户",
-        "point1": "开户低至 3000 美元起",
-        "point2": "杠杆高达1:500",
-        "point3": "平均点差 0.0 点",
-        "point4": "直通顶级银行",
-        "point5": "佣金$5/标准手",
-        "point6": "安全、即时、快速执行",
-        "point7": "使用 ECN 技术提供一级流动性",
-        "point8": "进入 7 大市场，拥有超过 27,000 种交易品种",
-        "point9": "无交易员干预",
+        "point1": "最低入金3000美元起",
+        "point2": "最高杠杆可达1:500",
+        "point3": "原始点差0.0个点",
+        "point4": "直接接入顶级银行",
+        "point5": "佣金：每标准手5美元",
+        "point6": "安全、即时且快速的交易执行",
+        "point7": "采用ECN技术提供一级流动性",
+        "point8": "可访问7大市场，交易产品超过27,000种",
+        "point9": "无做市商干预",
         "point10": "负余额保护",
         "point11": "无交易限制",
-        "point12": "无滑点*",
+        "point12": "无价格滑点*",
         "point13": "无重新报价",
-        "point14": "无拒绝交易",
-        "point15": "MT4/MT5交易平台可用",
+        "point14": "无拒单",
+        "point15": "MetaTrader（MT）交易平台",
         "point16": "市场分析",
-        "point17": "免费 VPS **",
-        "point18": "MT4/MT5交易平台可用",
-        "point19": "免费的尖端交易工具和信号插件",
+        "point17": "免费VPS**",
+        "point18": "提供 MAM、PAMM、API",
+        "point19": "免费提供先进的交易工具和交易信号",
         "point20": "专属客户经理"
       },
-      "note": "*当市场波动率低和流动性高时，可享受正常市场的波动率和流动性交易环境",
-      "subNote": "**    账户资金超过 5万美金",
-      "subNote1": "以上内容仅适用于 GTC Global Ltd, (FSCM) 和 GTC Global Trade Capital Co, (VFSC) 客户。"
+      "note": "在低波动性和高流动性的市场中交易，适用于正常市场波动性和流动性条件",
+      "subNote": "只适用于账户余额超过50,000美元的客户",
+      "subNote1": "以上内容仅适用于GTC Global Ltd.（FSCM）和GTC Global Trade Capital Co.（VFSC）的客户"
     },
     "demoAccount": {
       "metaData": {
-        "title": "开立免费模拟账户 | GTCFX",
-        "des": "GTC 提供3种主要账户类型，以满足您的交易需求，每种类型都有自己的优势。快来对比差异并发现其优势。"
+        "title": "开设免费模拟账户丨GTCFX",
+        "des": "GTC Forex提供3种主要账户类型，以满足您的交易需求，每种账户都有其独特的优势。可对比它们的差异，发现优势之处。"
       },
       "bannerText": {
         "heading": "交易、实践、学习、重复",
         "description": "直到准备好征服市场",
-        "buttonText": "从而开立实时帐户"
+        "buttonText": "或开设实盘账户"
       },
       "demoBoxes": {
         "one": {
-          "title": "10万美元虚拟资金",
-          "subtitle": "供您练习"
+          "title": "$100,000虚拟交易金",
+          "subtitle": "供您练习使用"
         },
         "two": {
-          "title": "并无风险测试",
-          "subtitle": "交易策略"
+          "title": "供您练习使用",
+          "subtitle": "无风险测试交易策略"
         },
         "three": {
-          "title": "初学者友好",
-          "subtitle": "交易工具"
+          "title": "新手友好",
+          "subtitle": "提供交易工具"
         }
       }
     },
     "accountForm": {
-    "firstName": "名字",
-    "lastName": "姓氏",
-    "email": "邮箱",
-    "phone": "电话",
-    "dob": "生日",
-    "platform": "首选交易平台",
-    "selectPlaceholder": "请选择选项",
-    "country": "居住国家",
-    "termOfService": "服务条款",
-    "termText": "点击提交后，我确认： (1) 我已阅读并\n点击提交后，我确认： (1) 我已阅读并",
-    "termText2": "同意客户协议",
-    "termText3": "(2) 我同意GTCFX在合理时间联系我 (3) 我没有屏蔽营销电话\n(3) 我没有屏蔽营销电话",
-    "submit": "发送",
-    "sending": "发送中",
-    "error": {
-      "firstName": "必填名字",
-      "lastName": "必填姓氏",
-      "email": "必填邮箱",
-      "account_no": "必填账号",
-      "phone": "必填电话",
-      "dob": "必填生日",
-      "platform": "必填平台",
-      "country": "必填国家",
-      "termOfService": "接受条款和条件"
-    },
-    "minLimit": "至少输入3个字母"
-  }
+      "firstName": "名字",
+      "lastName": "姓氏",
+      "email": "邮箱",
+      "phone": "电话",
+      "dob": "生日",
+      "platform": "首选交易平台",
+      "selectPlaceholder": "请选择选项",
+      "country": "居住国家",
+      "termOfService": "服务条款",
+      "termText": "点击提交后，我确认：\n(1) 我已阅读并同意客户协议\n(2) 我同意GTCFX在合理时间联系我\n(3) 我没有屏蔽营销电话",
+      "termText2": "点击提交后，我确认：\n(1) 我已阅读并同意客户协议\n(2) 我同意GTCFX在合理时间联系我\n(3) 我没有屏蔽营销电话",
+      "termText3": "点击提交后，我确认：\n(1) 我已阅读并同意客户协议\n(2) 我同意GTCFX在合理时间联系我\n(3) 我没有屏蔽营销电话",
+      "submit": "发送",
+      "sending": "发送中",
+      "error": {
+        "firstName": "必填名字",
+        "lastName": "必填姓氏",
+        "email": "必填邮箱",
+        "account_no": "必填账号",
+        "phone": "必填电话",
+        "dob": "必填生日",
+        "platform": "必填平台",
+        "country": "必填国家",
+        "termOfService": "接受条款和条件"
+      },
+      "minLimit": "至少输入3个字母"
+    }
   },
   "Instruments": {
     "commonTabs": {
@@ -1192,7 +1193,13 @@
         "ctradeAndriod": "Android 系统 ",
         "ctradeIpad": "iPad 系统 "
       }
+    },
+    "glossary": {
+    "metaData": {
+      "title": "术语表/常见问题 - GTCFX",
+      "des": "在这里，您可以找到全面的术语列表和常见问题，以帮助您更好地了解我们的服务和交易环境。"
     }
+  }
   },
   "tradingTools": {
     "economicCal": {
@@ -1643,6 +1650,7 @@
         "heading": "受限制的国家/地区",
         "description": null
       },
+       "notice": "重要提示：上述受限国家列表仅适用于GTC Global Ltd与GTC Global Trade Capital Co. Limited提供的服务。关于GTC金融集团其他实体的服务限制，请访问其官网或直接联系相关实体以获取详细信息。",
       "content": {
         "mainHeading": "受限制的国家/地区",
         "subHeading": "GTC Global Ltd, 不得向以下国家提供服务",
@@ -2316,91 +2324,84 @@
   },
   "footerLink": {
     "link": {
-      "label": "快捷链接",
-      "menu1": "关于GTC集团",
+      "label": "快速链接",
+      "menu1": "关于GTCFX",
       "menu2": "GTC监管",
-      "menu3": "GTC所获奖项",
+      "menu3": "GTC奖项",
       "menu4": "客户资金保险",
-      "menu5": "GTC集团全球呈现",
-      "menu6": "为什么选择GTC集团",
-      "menu7": "客户资金保险",
-      "menu8": "职业",
+      "menu5": "GTCFX全球业务",
+      "menu6": "为何选择GTCFX",
+      "menu7": "受限国家",
+      "menu8": "工作机会",
       "menu9": "联系我们",
-      "menu10": "GTC常见问题解答"
+      "menu10": "术语/常见问题解答"
     },
     "rules": {
-      "label": "交易产品和平台",
+      "label": "交易与平台",
       "menu1": "外汇",
       "menu2": "贵金属",
-      "menu3": "股票差价合约",
-      "menu4": "商品",
-      "menu5": "股票指数",
+      "menu3": "股票 CFD",
+      "menu4": "大宗商品",
+      "menu5": "股指",
       "menu6": "能源",
-      "menu7": "MT4交易平台",
-      "menu8": "MT5交易平台",
-      "menu9": "平台",
+      "menu7": "MT4 交易平台",
+      "menu8": "MT5 交易平台",
+      "menu9": "cTrader 平台",
       "menu10": "下载交易平台"
     },
     "update": {
-      "label": "Prime客户与技术优势",
-      "menu1": "流动性与尖端技术相结合",
-      "menu2": "跟单交易",
-      "menu3": "PAMM账户",
-      "menu4": "MAM账户",
-      "menu5": "Signal Centre 交易信号插件",
-      "menu6": "Auto Chart List 图表信号插件",
-      "menu7": "Acuity 交易信号插件",
-      "menu8": "专家分析",
-      "menu9": "VPS 虚拟专用服务器",
+      "label": "顶尖技术",
+      "menu1": "流动性与技术",
+      "menu2": "复制交易",
+      "menu3": "PAMM 账户",
+      "menu4": "MAM 账户",
+      "menu5": "信号中心工具",
+      "menu6": "自动图表分析工具",
+      "menu7": "Acuity精准交易工具",
+      "menu8": "专家市场分析",
+      "menu9": "虚拟专用服务器",
       "menu10": "客户协议"
     },
     "policy": {
       "label": "政策",
       "menu1": "隐私政策",
-      "menu2": "提款政策",
-      "menu3": "KYC/合规政策",
-      "menu4": "入金和退款政策",
+      "menu2": "出金政策",
+      "menu3": "KYC / 合规政策",
+      "menu4": "出入金政策",
       "menu5": "尽职调查政策",
-      "menu6": "条款和条件",
+      "menu6": "条款与条件",
       "menu7": "风险提示",
-      "menu8": "公司新闻",
-      "menu9": "市场概况",
-      "menu10": "GTC Financial Consultancy LLC（反洗钱）手册"
+      "menu8": "公司动态",
+      "menu9": "市场概览",
+      "menu10": "GTC金融咨询有限责任公司（反洗钱）手册"
     },
     "contact": {
-      "label": "联系方式",
-      "num": "800 667788",
+      "label": "联系我们",
+      "num": "+971 800 667788",
       "menu1": "电话：",
-      "menu2": "电子邮件：",
-      "menu3": "邮政信箱：",
-      "menu4": "时间："
+      "menu2": "邮箱：",
+      "menu3": "通信地址：",
+      "menu4": "营业时间："
     },
     "footerNotice": {
-      "yellow": "风险提示：",
-      "firstPara": "投资衍生产品存在巨大风险，可能并不适合所有投资者。杠杆在这些投资工具中的使用，会增加风险水平以及扩大潜在损失。在做出任何买卖外汇交易或差价合约的决定之前，请务必仔细评估您的投资目标、经验水平和风险承受能力。您应该只投资您可以承受损失的资金。我们强烈建议您彻底了解相关风险，如果您有任何疑问，请寻求独立财务或税务顾问的建议。",
-      "gtc_group_heading1": "GTC Group LLC-FZ",
-      "gtc_group_para1": "是一家在阿拉伯联合酋长国迪拜注册成立的控股公司，营业执照号：2311147.01。其注册办事处位于：Business Center 1, M Floor, Meydan Hotel, Nad Al Sheba, Dubai, United UAE。",
-      "gtc_group_heading2": "GTC Group LLC-FZ",
-      "gtc_group_para2": "及其全资拥有的实体或通过共同所有权或控制权隶属于 GTC 公司集团（统称“GTC 集团”）的实体，商业名为“GTC”、“GTC 集团”、“GTC Global”、“GTC Markets”、“ GTC FX”或“GTC Global Markets”。",
-      "gtc_multi_trading_heading": "GTC Multi Trading DMCC",
-      "gtc_multi_trading_para": "是一家依据迪拜多种商品交易中心法律法规注册并成立的有限公司（注册编号：DMCC-312687），并获得阿拉伯联合酋长国证券和商品管理局许可（编号.202200000007）从事商品经纪活动 - 交易和清算。注册地址：Unit No: 1501, 1 Lake Plaza, Plot No: JLT-PH2-T2A, Jumeirah Lakes Towers, Dubai, United UAE 网址:",
-      "gtc_global_heading": "GTC Global Ltd",
-      "gtc_global_para": "是一家在毛里求斯注册成立的有限公司（公司编号：C188049），并在毛里求斯金融服务委员会注册（编号 GB22200292）获得 SEC-2.1B 投资交易商资格。注册地址：Cyberati Lounge, Ground Floor, the Catalyst, Silicon Avenue, 40 Cybercity, 72201 Ebene, Republic of Mauritius 网站",
-      "gtc_global_pty_heading": "GTC Global Pty Ltd",
-      "gtc_global_pty_para": "是一家在澳大利亚注册成立的有限公司（澳大利亚公司编号：611 436 796；澳大利亚商业编号：84 611 436 796），并作为金融服务企业受澳大利亚证券和投资委员会监管。注册地址：138 Amalfi Drive, Surfers Paradise, QLD 4217, Australia",
-      "yellow2": "GTC Global Trade Capital Co. Limited, ",
-      "secPara": "是一家经瓦努阿图共和国瓦努阿图金融服务委员会注册、监管、授权的全球金融经纪公司 公司牌照号：40354",
-      "yellow3": "GTC Global Trade Capital Limited (SVG)",
-      "thirdPara": "在圣文森特根据《国际商业公司（修订和合并）法》注册为法人实体，许可证号为 24503 IBC 2018。",
-      "fourthPara": "是在塞浦路斯共和国注册成立的法人实体，注册号为 HE 443759，仅充当支付中介。",
-      "yellow4": "GTC Markets (CY) Ltd.",
-      "fifthPara": "是在塞浦路斯共和国注册成立的法人实体，注册号为 HE 443759，仅充当支付中介。",
-      "sixthPara": "本网站上的信息只有在获得 GTC 明确书面同意的情况下才能复制。",
-      "sevenPara": "上述实体不向居住在特定司法管辖区的个人提供服务，其中包括美国、加拿大、伊朗、朝鲜、英国、澳大利亚和",
-      "veriousOther": "其他各种。",
-      "eightyellow": "免责声明：",
-      "eightPara": "上述实体不向居住在特定司法管辖区和/或分发此类服务会违反当地法律或法规的司法管辖区的个人提供服务。"
-    }
+    "title": "其他成员机构：",
+    "yellow": "风险披露声明：",
+    "firstPara": "本网站由毛里求斯注册成立的有限责任公司GTC Global Ltd（公司注册号：C188049）全权拥有并运营。该公司持有毛里求斯金融服务委员会（牌照号：GB22200292）颁发的SEC-2.1B投资交易商资质。注册地址：毛里求斯共和国埃贝尼72201号Cybercity硅谷大道40号The Catalyst大厦底层Cyberati Lounge。  \n\n本网站展示的金融产品与服务由以下两家持牌机构提供：  \n1. GTC Global Ltd（毛里求斯）  \n2. GTC Global Trade Capital Co. Limited（瓦努阿图金融服务委员会授权机构，牌照号：40354）",
+    "gtc_group_heading1": "GTC Global Ltd and GTC Global Trade Capital Co. Limited",
+    "gtc_group_para1": "上述两家机构均隶属于GTC金融集团，该集团由遍布全球的多家实体机构组成。",
+    "gtc_group_heading2": "GTC Multi Trading DMCC",
+    "gtc_group_para2": "作为迪拜多种商品交易中心（DMCC-312687）注册法人，持有阿联酋证券商品管理局（SCA 202200000007）颁发的商品经纪交易与清算牌照。注册地址：迪拜朱美拉湖塔区1号湖广场大厦1501单元。",
+    "gtc_multi_trading_heading": "",
+    "gtc_multi_trading_para": "金融衍生品投资具有高风险属性，可能不适用于所有投资者。杠杆交易将显著放大风险敞口及潜在损失。在进行外汇或差价合约交易前，请审慎评估您的投资目标、经验水平和风险承受能力。仅使用可承受亏损的资金进行投资。我们强烈建议投资者充分认知相关风险，必要时请咨询独立财务或税务顾问。",
+    "gtc_global_para": "本网站所涉金融产品与服务均由指定运营主体提供，与下列集团实体无涉且不可追索。如需获取下列实体的特定服务，请访问其专属官网。",
+    "gtc_global_pty_heading": "GTC Global Ltd and GTC Global Trade Capital Co. Limited",
+    "gtc_global_pty_para": "不向特定司法管辖区的居民提供服务，亦不在当地法律或法规禁止此类服务分发的司法管辖区开展业务。",
+    "yellow2": "GTC Group LLC-FZ",
+    "secPara": "是一家在阿联酋迪拜注册的控股公司，商业执照编号：2311147.01。注册地址：阿联酋迪拜Nad Al Sheba Meydan酒店M层商务中心1号。",
+    "yellow4": "GTC Global (Australia) Pty Ltd,",
+    "fifthPara": "是一家在澳大利亚注册成立的公司，持有澳大利亚金融服务牌照（AFSL 496371）。注册地址：澳大利亚新南威尔士州悉尼皮特街123号17层Executive Centre，邮编2000。GTC Global (Australia) Pty Ltd官网为：",
+    "eightPara": "GTC金融集团旗下各实体均独立运营。本网站提供的金融产品与服务仅由GTC Global Ltd与GTC Global Trade Capital Co. Limited提供"
+  }
   },
   "footerCopyRight": {
     "copyRightText": "© 版权所有 2025 GTCFX - 保留所有权利"
@@ -3296,6 +3297,8 @@
     },
     "content": {
       "heading1" : "掉期更新",
+      "des1": "掉期更新日期：2025年1月25日。 ",
+      "des2": "请注意，所有利率仅供参考，实际利率请以客户交易平台上的符号规格为准。",
       "tab1": "外汇",
        "tab2": "贵金属",
         "tab3": "能源",

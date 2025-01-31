@@ -35,7 +35,7 @@ const LiquiditySolutions = () => {
        
         {/* Tabs */}
         <Tab.Group>
-          <Tab.List className="flex justify-center space-x-4 mb-6">
+          <Tab.List className="flex flex-col md:flex-row justify-center gap-4 mb-6">
             {tabs.map((tab, index) => (
               <Tab key={index} className={({ selected }) => clsx("px-4 py-2 border", selected ? " bg-gradient-to-r from-[#243586] from-10% via-[#222e73] via-30% to-[#141b43] to-90% text-white" : "border-gray-400 text-gray-700")}> 
                 {tab}
@@ -54,8 +54,8 @@ const LiquiditySolutions = () => {
 
         {/* Footer Text */}
         <div className="mt-10 text-center">
-          <h3 className="text-xl font-bold text-[#A07C47]">UNLOCKING PROFITABLE OPPORTUNITIES</h3>
-          <p className="text-gray-800 mt-2">YOUR BEST INVESTMENT JOURNEY BEGINS WITH US</p>
+          <h3 className="text-sm md:text-xl font-bold text-secondary">UNLOCKING PROFITABLE OPPORTUNITIES</h3>
+          <p className="text-xs md:text-sm text-primary mt-2">YOUR BEST INVESTMENT JOURNEY BEGINS WITH US</p>
         </div>
       </div>
     </section>
