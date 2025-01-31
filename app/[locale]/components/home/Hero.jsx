@@ -35,7 +35,7 @@ const Hero = () => {
 
                {/* Image Section */}
                <div className="relative w-full h-[160px] md:h-[340px]">
-                <Image src="/Traders.webp" fill alt="Banner" className="object-contain" /> 
+                <Image src="/gtc-assets.png" fill alt="Banner" className="object-contain" /> 
               </div>
             </div> 
           </SwiperSlide>
@@ -81,7 +81,7 @@ const Hero = () => {
 
                {/* Image Section */}
                <div className="relative w-full h-[160px] md:h-[340px]">
-                <Image src="/Asset-09.webp" fill alt="Banner" className="object-contain" />
+                <Image src="/gtc-product.png" fill alt="Banner" className="object-contain" />
               </div>
             </div>
           </SwiperSlide>
