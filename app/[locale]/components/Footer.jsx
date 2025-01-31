@@ -281,7 +281,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="max-width md:flex justify-start items-center mt-8 pt-8 border-t border-y-cyan-50 border-opacity-40 px-2 ">
+        <div className="container md:flex justify-start items-center mt-8 pt-8 border-t border-y-cyan-50 border-opacity-40 px-2 ">
           <div className="md:basis-3/12 md:flex flex-wrap justify-center md:pr-10 pb-5">
             <Link href="/" locale="en">
               <Image
