@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -10,8 +10,11 @@ import LiveAccountButton from "../liveAccountButton";
 import Link from "next/link";
 
 const Hero = () => {
+
+  const [isFourthSlide, setIsFourthSlide] = useState(false);
+
   return (
-    <section className="relative py-10 lg:py-[46px] bg-[url('/gtcfx-bg.webp')] bg-cover bg-center bg-opacity-35">
+    <section className={`relative py-10 lg:py-[46px] transition-all duration-500 ${isFourthSlide ? "bg-[url('/fal-bg.webp')]" : "bg-[url('/gtcfx-bg.webp')]"} bg-cover bg-center bg-opacity-35`}>
       <div className="container relative z-10">
         <Swiper 
           spaceBetween={30} 
@@ -19,6 +22,7 @@ const Hero = () => {
           pagination={{ clickable: true }} 
           modules={[Pagination, Autoplay]} 
           autoplay={{ delay: 3000, disableOnInteraction: false }}
+          onSlideChange={(swiper) => setIsFourthSlide(swiper.realIndex === 3)}
         >
 
           {/* Second Slide */}
@@ -89,12 +93,12 @@ const Hero = () => {
           </SwiperSlide>
 
 
-  {/* Third Slide */}
+  {/* fourth Slide */}
   <SwiperSlide>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center lg:flex-row w-[100%]">
              
               {/* Text Section */}
-              <div className="text-center lg:text-left text-primary bg-[url('/bg-new.webp')] bg-contain bg-left order-2 lg:order-none">
+              <div className="text-center lg:text-left text-white order-2 lg:order-none">
                 <p className="text-sm md:text-[xl] 2xl:text-2xl md:max-w-xs xl:max-w-lg uppercase pb-1 md:pb-3">The First GOLDEN FALCON AWARDS NIGHT</p>
                 <h3 className="uppercase"><span className="text-secondary text-[20px] md:text-3xl xl:text-4xl font-bold py-4 leading-normal"> Celebrating 12 Years </span></h3>
                 <h2 className="text-xl lg:text-3xl uppercase md:pl-10 font">
@@ -111,8 +115,8 @@ const Hero = () => {
               </div>
 
                {/* Image Section */}
-               <div className="relative w-full h-[160px] md:h-[340px]">
-                <Image src="/falcon.png" fill alt="Banner" className="object-contain" />
+               <div className="relative w-full h-[160px] md:h-[400px]">
+                <Image src="/falconaward.png" fill alt="Banner" className="object-contain" />
               </div>
             </div>
           </SwiperSlide>
