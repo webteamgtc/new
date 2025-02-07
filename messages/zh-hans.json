@@ -131,14 +131,14 @@
       "slider1": {
           "heading": "交易、投资与合作",
           "subheading": "与全球信赖且受监管的",
-          "description": "金融衍生品行業引领者"
+          "description": "金融衍生品行业引领者"
         },
         "slider2": {
           "heading": "接入",
           "heading1": "8",
           "heading2": "大市场",
           "subheading": "超过27,000种",
-          "subheading2": "交易工具",
+          "subheading2": "交易品种",
           "description": "外汇 | 差价合约 | 贵金属 | 股票 | 大宗商品 | 能源"
         },
         "slider3": {
@@ -158,14 +158,14 @@
       "fact_no1": 985000,
       "fact_desc1": "服务客户数",
       "fact_no2": "27,000",
-      "fact_desc2": "交易产品",
+      "fact_desc2": "交易产品种类",
       "no3": "300",
       "fact_no3": "",
       "fact_syn1": "$",
-      "fact_desc3": "全球服务范围",
+      "fact_desc3": "业务覆盖国家",
       "no4": "135",
-      "fact_no4": "十亿",
-      "fact_desc4": "每月交易量"
+      "fact_no4": "亿",
+      "fact_desc4": "每月交易额"
     },
     "whyGTC": {
       "title": "与全球顶级的在线交易平台进行投资",
@@ -213,18 +213,18 @@
       "desc": "GTCFX已为客户资金投保，提供最高达2万欧元的保障。详情请点击此处"
     },
     "products": {
-      "heading": "可访问8大资产市场，交易产品超过27,000种",
+      "heading": "接入8大资产市场，交易产品超过27,000种",
       "title1": "外汇",
       "desc1": "全球货币对",
       "title2": "黄金",
       "desc2": "发现优势",
       "title3": "贵金属",
       "desc3": "白银、钯金等",
-      "title4": "能源差价合约",
+      "title4": "能源",
       "desc4": "石油、天然气及所有主要能源",
       "title5": "大宗商品",
       "desc5": "全球主要大宗商品",
-      "title7": "股票",
+      "title7": "期货",
       "desc7": "无佣金买卖股票，且保证金低",
       "title6": "股票",
       "desc6": "超过600家公司",

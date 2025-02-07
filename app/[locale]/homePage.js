@@ -55,16 +55,11 @@ export default function HomePage() {
       imageUrl: "/icons-new/icons-31.webp",
       alt: "Crypto CFDs"
     },
-    {
-      name: t("products.title3"),
-      description: t("products.desc3"),
-      imageUrl: "/icons-new/icons-32.webp",
-      alt: "Indices"
-    },
+   
     {
       name: t("products.title4"),
       description: t("products.desc4"),
-      imageUrl: "/icons-new/icons-33.webp",
+      imageUrl: "/icons-new/icons-32.webp",
       alt: "CFDs"
     },
     {
@@ -75,18 +70,24 @@ export default function HomePage() {
     }, {
       name: t("products.title6"),
       description: t("products.desc6"),
-      imageUrl: "/icons-new/icons-35.webp",
+      imageUrl: "/icons-new/icons-36.webp",
       alt: "Indices"
     }, {
       name: t("products.title7"),
       description: t("products.desc7"),
-      imageUrl: "/icons-new/icons-36.webp",
+      imageUrl: "/icons-new/icons-35.webp",
       alt: "Indices"
     },
     {
       name: t("products.title8"),
       description: t("products.desc8"),
-      imageUrl: "/icons-new/icons-37.webp",
+      imageUrl: "/icons-new/icons-38.webp",
+      alt: "Indices"
+    },
+     {
+      name: t("products.title3"),
+      description: t("products.desc3"),
+      imageUrl: "/icons-new/icons-33.webp",
       alt: "Indices"
     },
   ];
