@@ -1,19 +1,21 @@
 import React from "react";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 const JoinIBNetwork = () => {
+   const t = useTranslations("home.home_IB")
   const steps = [
-    { number: "/icons-new/step1.png", text: "Apply to Join our IB Network" },
-    { number: "/icons-new/step2.png", text: "Sign an IB Agreement" },
-    { number: "/icons-new/step3.png", text: "Introduce Clients" },
-    { number: "/icons-new/step4.png", text: "Start Earning Rebates & Commissions" },
+    { number: "/icons-new/step1.png", text: t("point1") },
+    { number: "/icons-new/step2.png", text: t("point2") },
+    { number: "/icons-new/step3.png", text:  t("point3") },
+    { number: "/icons-new/step4.png", text:  t("point4") },
   ];
 
   return (
  
       <div className="text-center md:pt-10">
         <h2 className="text-xl md:text-3xl font-bold text-[#A07C47] mb-10">
-          How to Join Our IB Network
+          {t("howTo")}
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-6 justify-center items-center">
           {steps.map((step, index) => (

@@ -1,8 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import LiveAccountButton from "../liveAccountButton";
+import { useTranslations } from "next-intl";
+
 
 const ClientPayments = () => {
+    const t = useTranslations("home")
     return (
         <section className="py-10 lg:py-[40px] border-b border-t border-b-gray-300 bg-[#fff]">
             <div className="container mx-auto lg:px-16">
@@ -10,12 +12,11 @@ const ClientPayments = () => {
                     
                     {/* Left Section - Text and Button */}
                     <div className="text-center md:text-left text">
-                        <h2 className="HeadingH2 mb-5 bg-gradient-to-r from-primary via-secondary from-10% to-primary to-90% font-medium inline-block text-transparent bg-clip-text md:text-left max-w-sm px-10 md:px-0">
-                            Method of Payment, Card Types Accepted & Currency
+                        <h2 className="HeadingH2 mb-5 bg-gradient-to-r from-primary via-secondary from-10% to-primary to-90% font-medium inline-block text-transparent bg-clip-text md:text-left max-w-lg px-10 md:px-0">
+                            {t("our-payment")}
                         </h2>
                         <p>
-                            We accept payments online using Visa and MasterCard credit/debit card in AED 
-                            (and/or any other available currency listed in the payments section).
+                        {t("our-payment2")}
                         </p>
                     </div>
 

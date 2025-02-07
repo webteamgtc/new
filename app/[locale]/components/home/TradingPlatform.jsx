@@ -52,7 +52,7 @@ export default function TradingPlatform() {
               {/* Button at the Bottom */}
               <Link href="/account-types" className="bg-[#263f8f] text-white font-medium uppercase w-36 block py-2 hover:bg-secondary hover:text-white transition">
            
-                  View Detail
+                 {t('view_more')}
                 
               </Link>
             </div>

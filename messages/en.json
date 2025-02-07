@@ -128,12 +128,31 @@
       "des": "Trade forex, stocks, energy, indices, & metals online with GTCFX, the #1 STP Broker, to benefit from tight spreads, ultra-fast execution, & more. Trade now!"
     },
     "hero": {
-      "title1": "TRUSTED",
-      "desc1": "Solidifying global leadership in financial derivatives, with sustained growth and unwavering customer focus, earning worldwide trust.",
-      "title2": "REGULATED",
-      "desc2": "GTCFX prioritizes global regulatory adherence, fostering trust and accountability across diverse international arenas.",
-      "title3": "GLOBAL",
-      "desc3": "Servicing +985,000 clients globally, we offer diverse products, ensuring financial stability across +100 countries.",
+      "slider1": {
+       "heading": "Trade, Invest & Partner",
+      "subheading": "with the Globally Trusted & Regulated",
+      "description": "Leader in Financial Derivatives"
+      },
+      "slider2": {
+       "heading": "Access to",
+       "heading1": "8",
+       "heading2": "Markets with",
+      "subheading": "+27,000",
+      "subheading2": "Trading Instruments",
+      "description": "Forex | CFDs | Metals | Shares | Commodities | Stocks | Energies"
+      },
+      "slider3": {
+      "heading": "Experience Cutting-Edge Trading Tools",
+      "subheading": "on the Most Stable",
+      "description": "Trading Platform",
+      "extra": "MT4 | MT5"
+      },
+      "slider4": {
+       "heading": "Celebrating 12 Years of Financial Excellence",
+      "subheading": "The First GOLDEN FALCON AWARDS NIGHT",
+      "description": "Trade with GTCFX, Rise to the Top, and Join the Elite at the Golden Falcon Awards!",
+      "buttonText": "Read More"
+      },
       "liveAccount": "OPEN LIVE ACCOUNT",
       "partnerAccount": "BECOME A PARTNER",
       "fact_no1": "985,000",
@@ -171,8 +190,7 @@
         "heading": "Ultra-fast Execution",
         "description": "Trade with top-tier liquidity for fast, secure execution in just 10ms."
       },
-      "desc2": "Maximize your profits effectively",
-      "open_live_account": "OPEN LIVE ACCOUNT"
+      "desc2": "Maximize your profits effectively"
     },
     "accountType": {
       "heading": "Account Types",
@@ -186,8 +204,7 @@
       "ecnAccount": {
         "heading": "ECN Account"
       },
-      "view_more": "Click to View More",
-      "open_live_account": "OPEN LIVE ACCOUNT"
+      "view_more": "View Details"
     },
     "security_of_funds": {
       "title": "Security of Funds",
@@ -220,7 +237,19 @@
       "point3": "Up to 10 levels of market Depth",
       "point4": "Quick Integration",
       "point5": "Ultra Fast Price Feeds",
-      "point6": "Fast onboarding Procedure" 
+      "point6": "Fast onboarding Procedure",
+      "lpLabel": "UNLOCKING PROFITABLE OPPORTUNITIES",
+      "lpLabel1": "YOUR BEST INVESTMENT JOURNEY BEGINS WITH US"
+    },
+    "home_IB": {
+          "title": "Grow Your Clients Network With Us!",
+          "des": "Unlock the potential for profit by opening a live account and trading our competitive financial products with the most favorable spreads. Seize opportunities in rate fluctuations to maximize your profits effectively.",
+          "howTo": "How to Join Our IB Network",
+          "point1": "Apply to Join our IB Network",
+          "point2": "Sign an IB Agreement",
+          "point3": "Introduce Clients",
+          "point4": "Start Earning Rebates & Commissions",
+          "label": "Join our specialized ib program"
     },
     "global_presence": {
       "heading": "Our Global Presence",
@@ -492,35 +521,6 @@
     }
   },
    "accounts": {
-    "live-account": {
-      "metaData": {
-        "title": "Open a Live Trading Account | GTCFX",
-        "des": "Swiftly open your GTCFX's live trading account Now. Explore Forex, CFDs, and expert-guided insights. Your success begins here!"
-      },
-      "title": "Live Trading Account Application",
-      "sub_title": "Fast account opening & instant funding",
-      "fast": "Fast account opening",
-      "instant": "& instant funding",
-      "products": {
-        "heading": "Access To 8 Asset Markets With Over 27,000 Trading Instruments",
-        "title1": "Forex Trading",
-        "desc1": "All global currency pairs",
-        "title2": "Gold Trading",
-        "desc2": "Discover the advantages",
-        "title3": "Precious Metals",
-        "desc3": "Silver, Palladium and more",
-        "title4": "CFDs on Energy",
-        "desc4": "Oil, Gas and all major energies",
-        "title5": "Shares",
-        "desc5": "Sugar, cocoa, wheat and more",
-        "title6": "Stocks",
-        "desc6": "Over 600 companies",
-        "title7": "Commodities",
-        "desc7": "Major global commodities",
-        "title8": "Equity Indices",
-        "desc8": "Major global indices"
-      }
-    },
     "deposit": {
       "metaData": {
         "title": "Fund Your Account | GTCFX",

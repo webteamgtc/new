@@ -33,7 +33,7 @@ const LiveAccountButton = ({ hoverStyle, link }) => {
     <Link
       href={finalLink}
       target="_blank"
-      className={`bg-[#263f8f] text-white shine-button text-sm 3xl:text-xl px-8 py-2 text-center md:w-auto w-[300px] md:m-0 mx-auto transition-colors duration-900 hover:bg-gradient-to-r hover:from-secondary hover:to-[#b68756] duration-500 ${hoverStyle}`}
+      className={`bg-[#263f8f] text-white text-sm 3xl:text-xl px-8 py-2 text-center md:w-auto w-[300px] md:m-0 mx-auto transition-colors duration-900 hover:bg-gradient-to-r hover:from-secondary hover:to-[#b68756] duration-500 ${hoverStyle}`}
     >
       {t("liveAccount")}
     </Link>
