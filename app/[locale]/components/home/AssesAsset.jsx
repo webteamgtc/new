@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const AssesAsset = ({ assetData, title }) => {
     return (
-        <section className="py-10 md:pt-[46px] md:pb-0 text-center bg-[url('/why-bg.webp')] bg-cover bg-center text-white">
+        <section className="py-10 md:pt-[90px] md:pb-0 text-center bg-[url('/why-bg.webp')] bg-cover bg-center text-white">
             <div className="container mx-auto px-6 lg:px-16">
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10">
                     {/* Left Section - Mobile Trading Image */}

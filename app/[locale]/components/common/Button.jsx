@@ -31,7 +31,7 @@ const Button = () => {
 
 
   return (
-    <div className="flex flex-col md:flex-row gap-2 md:gap-5 justify-start relative">
+    <div className="flex flex-col md:flex-row gap-2 md:gap-5 justify-center relative">
       <Link
         className="bg-gradient-to-r from-[#263f8f] via-[#263f8f] to-[#263f8f] shine-button text-white text-sm 3xl:text-xl px-8 py-2 text-center md:w-auto uppercase w-[300px] md:m-0 mx-auto duration-500 transition-colors hover:bg-gradient-to-r hover:from-[#10122d]  hover:to-[#1b245e]"
         href={registrationLink}

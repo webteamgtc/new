@@ -6,7 +6,7 @@ import { useTranslations } from "next-intl";
 
 
 const LiquiditySolutions = () => {
-  const tabs = ["Liquidity", "Technology", "Bridge", "Risk Management"];
+  const tabs = ["Liquidity", "Technology", "Bridge"];
 
   const t= useTranslations("home.liquidity_provider")
   
@@ -18,15 +18,13 @@ const LiquiditySolutions = () => {
         return <LiquidityCarousel />;
       case "Bridge":
         return <LiquidityCarousel />;
-      case "Risk Management":
-        return <LiquidityCarousel />;
       default:
-        return null;
+        return null; 
     }
   };
 
   return (
-    <section className="py-10 lg:py-[46px] bg-[#ECF3FD] text-center">
+    <section className="py-10 lg:py-[90px] bg-[#ECF3FD] text-center">
       <div className="container mx-auto px-6 lg:px-16">
       <div className="text-center mb-6">
         <h2 className="HeadingH2 mb-5 bg-gradient-to-r from-primary via-secondary  from-10% to-primary to-90% font-medium inline-block text-transparent bg-clip-text text-center">

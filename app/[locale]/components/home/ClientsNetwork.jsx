@@ -9,7 +9,7 @@ const ClientsNetwork = () => {
     const t = useTranslations("home.home_IB")
     return (
         <>
-        <section className="py-10 lg:py-[46px] border-b border-t border-b-gray-300 bg-[url('/gtcfx-bg.webp')] bg-cover bg-center">
+        <section className="py-10 lg:py-[90px] border-b border-t border-b-gray-300 bg-[url('/gtcfx-bg.webp')] bg-cover bg-center">
             <div className="container mx-auto lg:px-16">
                 <div className="flex flex-col md:flex-row justify-between items-center gap-10">
                     

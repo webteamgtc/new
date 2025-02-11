@@ -113,7 +113,7 @@ export default function Markets() {
 
   return (
     <>
-      <section className="pt-10 lg:pt-[46px] border-b border-t border-b-gray-300 bg-[url('/gtcfx-bg.webp')] bg-cover bg-center">
+      <section className="pt-10 lg:py-[90px] border-b border-t border-b-gray-300 bg-[#ECF3FD]">
       <div className="container">
        <div className="text-center mb-6">
         <h2 className="HeadingH2 mb-5 bg-gradient-to-r from-primary via-secondary  from-10% to-primary to-90% font-medium inline-block text-transparent bg-clip-text text-center">

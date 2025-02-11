@@ -25,7 +25,7 @@ export default function TradingPlatform() {
   ];
 
   return (
-    <section className="py-10 lg:py-[46px] bg-[#ECF3FD]">
+    <section className="py-10 lg:py-[90px] bg-[#ECF3FD] bg-[url('/gtcfx-bg.webp')] bg-cover bg-center">
       <div className="max-w-5xl mx-auto text-center">
         {/* Section Title */}
         <h2 className="HeadingH2 mb-5 bg-gradient-to-r from-primary via-secondary to-primary font-medium inline-block text-transparent bg-clip-text">
