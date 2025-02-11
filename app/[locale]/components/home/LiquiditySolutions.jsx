@@ -3,6 +3,8 @@ import { Tab } from "@headlessui/react";
 import clsx from "clsx";
 import LiquidityCarousel from "./LiquidityCarousel";
 import { useTranslations } from "next-intl";
+import TechnologyCarousel from "./TechnologyCarousel";
+import BridgeCarousel from "./BridgeCarousel";
 
 
 const LiquiditySolutions = () => {
@@ -15,9 +17,9 @@ const LiquiditySolutions = () => {
       case "Liquidity":
         return <LiquidityCarousel />;
       case "Technology":
-        return <LiquidityCarousel />;
+        return <TechnologyCarousel />;
       case "Bridge":
-        return <LiquidityCarousel />;
+        return <BridgeCarousel />;
       default:
         return null; 
     }

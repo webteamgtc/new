@@ -6,12 +6,13 @@ import { Pagination, Autoplay } from "swiper/modules";
 
 const LiquidityCarousel = () => {
   const slides = [
-    { title: "LIQUIDITY", description: "Unlock deep liquidity access across 10 assets in one platform. Meet your trading needs with our unique multi-asset offers." },
-    { title: "FOREX", description: "Access deep FX liquidity with over 100 trading pairs, low spreads, competitive margins, and fast execution." },
-    { title: "METALS", description: "Expand your business with competitive metals liquidity. Benefit from tight spreads and reliable pricing." },
-    { title: "INDICES", description: "Access global indices liquidity with tight spreads, fast execution, and competitive pricing." },
-    { title: "ENERGY", description: "Gain reliable energy market access with competitive spreads and robust liquidity." },
-    { title: "EQUITIES", description: "Access global equities liquidity through single-stock CFDs, gain worldwide equity market exposure from a single platform with efficient execution." }
+    { title: "Liquidity", description: "We provide top-tier liquidity solutions globally, ensuring optimal execution and minimal slippage with deep liquidity and advanced technology." },
+    { title: "Forex", description: "Gain access to deep FX liquidity with 200+ trading pairs, tight spreads, competitive margins, and lightning-fast execution." },
+    { title: "Metals", description: "Enhance your business with deep metals liquidity, featuring tight spreads and dependable pricing." },
+    { title: "Commodities", description: "Gain deep liquidity, competitive pricing, and seamless execution across metals, energy, and other key commodity markets." },
+    { title: "Indices", description: "Tap into global indices liquidity with tight spreads, rapid execution, and competitive pricing." },
+    { title: "Energy", description: "Access the energy markets with strong liquidity, tight spreads, and reliable execution." },
+    { title: "Equities", description: "Trade global equities via single-stock CFDs, accessing worldwide markets from one platform with seamless execution. " }
   ];
 
   return (

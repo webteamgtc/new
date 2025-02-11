@@ -19,7 +19,7 @@ const Hero = () => {
       muted
       className="absolute inset-0 w-full h-full object-cover object-center"
     >
-      <source src="/bg-gtcfx-video.mp4" type="video/mp4" />
+      <source src="/gtcfx-brand.mp4" type="video/mp4" />
     </video>
 
     <div className="container relative z-10 text-white">
