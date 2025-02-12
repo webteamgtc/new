@@ -10,11 +10,11 @@ import "aos/dist/aos.css";
 import LocationContextProvider from "../../context/location-context";
 import { LiveChatWidget } from "@livechat/widget-react";
 import AssesAsset from "./components/home/AssesAsset";
-import TradingPlatform from "./components/home/TradingPlatform";
 import { useParams } from "next/navigation";
 import ClientsNetwork from "./components/home/ClientsNetwork";
 import ClientPayments from "./components/home/ClientPayments";
 import LiquiditySolutions from "./components/home/LiquiditySolutions";
+import TradingPlatform from "./components/home/TradingPlatform";
  
 export default function HomePage() {
   const t = useTranslations("home"); 
@@ -96,12 +96,13 @@ export default function HomePage() {
         <Hero />
         <StatCounter stats={statsOne} />
         <WhyGTC />
-        <Markets />
-        <TradingPlatform />
-        <SecurityFund />
-        <AssesAsset assetData={assetData} title={t("products.heading")} columns={4} />
-        <ClientsNetwork />
         <LiquiditySolutions />
+        <TradingPlatform />
+        <Markets />
+        <SecurityFund />
+ 
+        <ClientsNetwork />
+        
         <ClientPayments />
         {/* <CompanyNews/> */}
       </LocationContextProvider>

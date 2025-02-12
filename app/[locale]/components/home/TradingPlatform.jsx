@@ -25,13 +25,13 @@ export default function TradingPlatform() {
   ];
 
   return (
-    <section className="py-10 lg:py-[90px] bg-[#ECF3FD] bg-[url('/gtcfx-bg.webp')] bg-cover bg-center">
+    <section className="py-10 lg:py-[90px] border-t border-gray-300">
       <div className="max-w-5xl mx-auto text-center">
         {/* Section Title */}
         <h2 className="HeadingH2 mb-5 bg-gradient-to-r from-primary via-secondary to-primary font-medium inline-block text-transparent bg-clip-text">
           {t("heading")}
         </h2>
-        <p className="text max-w-6xl mx-auto mb-8">{t("desc")}</p>
+        <p className="text mb-8">{t("desc")}</p>
 
         {/* Account Types */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">

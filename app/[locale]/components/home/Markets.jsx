@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import { useEffect, useRef } from "react";
+import TradingPlatform from "./TradingPlatform";
 
 export default function Markets() {
   const widgetRef = useRef(null);
@@ -17,12 +18,13 @@ export default function Markets() {
       script.src = "https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js";
       script.async = true;
       script.innerHTML = JSON.stringify({
-        colorTheme: "light",
+        colorTheme: "dark",
         dateRange: "12M",
         showChart: true,
         locale: "en",
         largeChartUrl: "https://mygtcportal.com/getview?view=register&token=exhowwwwe2owwwww&_gl=1*19bpo5s*_gcl_au*MzQyNTMwNDY3LjE3MjMyMjM2MTE.",
-        isTransparent: true,
+        isTransparent: false, // Ensures the background color is applied
+        backgroundColor: "black", // ✅ Add this line
         showSymbolLogo: true,
         showFloatingTooltip: true,
         width: "100%",
@@ -97,7 +99,7 @@ export default function Markets() {
 
   const iframeContainerStyle = {
     position: 'relative',
-    height: '452px'
+    height: '550px'
   };
 
   const iframeOverlayStyle = {
@@ -105,38 +107,44 @@ export default function Markets() {
     bottom: 0,
     left: 0,
     right: 0,
-    height: '84px',
-    backgroundColor: 'white', // Or match your page background color
+    height: '40px',
+    backgroundColor: '#283e91', // Or match your page background color
     zIndex: 10,
   };
 
 
   return (
     <>
-      <section className="pt-10 lg:py-[90px] border-b border-t border-b-gray-300 bg-[#ECF3FD]">
+      <section className="pt-10 lg:py-[90px] border-b border-t border-b-gray-300 bg-[url('/why.jpg')] bg-cover bg-center">
       <div className="container">
-       <div className="text-center mb-6">
-        <h2 className="HeadingH2 mb-5 bg-gradient-to-r from-primary via-secondary  from-10% to-primary to-90% font-medium inline-block text-transparent bg-clip-text text-center">
+        <div className="grid grid-cols-1 gap-4 items-start">
+        <div className="text-center">
+        <h2 className="HeadingH2 md:mb-3 bg-gradient-to-r from-secondary via-[#dcc8b2]  from-10% to-secondary to-90% inline-block text-transparent bg-clip-text font-medium">
           {t("title")}
         </h2>
-        <p className="text-accent md:text-base text-sm 2xl:text-[17px] text-center max-w-6xl mx-auto">{t("sub_title")}
+        <p className="text-white md:text-base text-sm 2xl:text-[17px] max-w-6xl mx-auto mb-5">{t("sub_title")}
         </p>
-        </div>
-      
-      
-      <div style={iframeContainerStyle}>
+        <div style={iframeContainerStyle}>
      
-        <div className="tradingview-widget-container" ref={widgetRef}>
-          <div className="tradingview-widget-container__widget"></div>
-          <div className="tradingview-widget-copyright">
-            <a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank">
-              <span className="blue-text"></span>
-            </a>
-          </div>
+     <div className="tradingview-widget-container" ref={widgetRef}>
+       <div className="tradingview-widget-container__widget"></div>
+       <div className="tradingview-widget-copyright">
+         <a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank">
+           <span className="blue-text"></span>
+         </a>
+       </div>
+     </div>
+     {/* Add this div to cover the bottom 30px */}
+     <div style={iframeOverlayStyle}></div>
+   </div>
         </div>
-        {/* Add this div to cover the bottom 30px */}
-        <div style={iframeOverlayStyle}></div>
-      </div>
+  
+        </div>
+        
+       
+      
+      
+     
       </div>
     </section>
     </>

@@ -5,7 +5,7 @@ import LiquidityCarousel from "./LiquidityCarousel";
 import { useTranslations } from "next-intl";
 import TechnologyCarousel from "./TechnologyCarousel";
 import BridgeCarousel from "./BridgeCarousel";
-
+import Link from "next/link";
 
 const LiquiditySolutions = () => {
   const tabs = ["Liquidity", "Technology", "Bridge"];
@@ -26,7 +26,8 @@ const LiquiditySolutions = () => {
   };
 
   return (
-    <section className="py-10 lg:py-[90px] bg-[#ECF3FD] text-center">
+    <section className="py-10 lg:py-[90px] bg-[#ECF3FD] bg-[url('/platform-bg.png')] bg-cover bg-center bg-blend-multiply text-center">
+
       <div className="container mx-auto px-6 lg:px-16">
       <div className="text-center mb-6">
         <h2 className="HeadingH2 mb-5 bg-gradient-to-r from-primary via-secondary  from-10% to-primary to-90% font-medium inline-block text-transparent bg-clip-text text-center">
@@ -58,7 +59,14 @@ const LiquiditySolutions = () => {
         {/* Footer Text */}
         <div className="mt-10 text-center">
           <h3 className="text-sm md:text-xl font-bold text-secondary">{t("lpLabel")}</h3>
-          <p className="text-xs md:text-sm text-primary mt-2">{t("lpLabel1")}</p>
+          <p className="text-xs md:text-sm text-primary mt-2 mb-10">{t("lpLabel1")}</p>
+          <Link
+      href=""
+      target="_blank"
+      className={`bg-[#263f8f] text-white text-sm 3xl:text-xl px-8 py-2 text-center md:w-auto w-[300px] md:m-0 mx-auto transition-colors duration-900 hover:bg-gradient-to-r hover:from-secondary hover:to-[#b68756] duration-500`}
+    >
+      Apply For Liquidity Service
+    </Link>
         </div>
       </div>
     </section>
