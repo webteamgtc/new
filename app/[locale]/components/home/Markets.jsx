@@ -100,6 +100,7 @@ export default function Markets() {
   const iframeContainerStyle = {
     position: 'relative',
     height: '550px'
+
   };
 
   const iframeOverlayStyle = {
@@ -135,7 +136,7 @@ export default function Markets() {
        </div>
      </div>
      {/* Add this div to cover the bottom 30px */}
-     <div style={iframeOverlayStyle}></div>
+     <div style={iframeOverlayStyle} className="rounded-mg"></div>
    </div>
         </div>
   
