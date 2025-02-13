@@ -98,11 +98,9 @@ export default function HomePage() {
         <WhyGTC />
         <LiquiditySolutions />
         <TradingPlatform />
-        <Markets />
         <SecurityFund />
- 
+        <Markets /> 
         <ClientsNetwork />
-        
         <ClientPayments />
         {/* <CompanyNews/> */}
       </LocationContextProvider>

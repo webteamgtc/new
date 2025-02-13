@@ -108,7 +108,7 @@ export default function Markets() {
     left: 0,
     right: 0,
     height: '40px',
-    backgroundColor: '#283e91', // Or match your page background color
+    backgroundColor: '#1f1f1f', // Or match your page background color
     zIndex: 10,
   };
 

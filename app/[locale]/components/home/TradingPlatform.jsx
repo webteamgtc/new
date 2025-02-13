@@ -1,62 +1,98 @@
-import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { MdSwitchAccount } from "react-icons/md";
 import Link from "next-intl/link";
+import Image from "next/image";
 
 export default function TradingPlatform() {
+
   const t = useTranslations("home.accountType");
 
   const accountTypes = [
     {
-      iconSrc: "/account1.webp",
+      bgImage: "/stand.png", // Background Image
+      iconSrc: "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/img/home/standard.webp",
       heading: t("standardAccount.heading"),
-      bgImage: "/account1.webp", // Dynamic background
     },
     {
-      iconSrc: "/account2.webp",
+      bgImage: "/pro.png", // Background Image
+      iconSrc: "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/img/home/pro.webp",
       heading: t("proAccount.heading"),
-      bgImage: "/account2.webp", // Dynamic background
     },
     {
-      iconSrc: "/account3.webp",
+      bgImage: "/ecn.png", // Background Image
+      iconSrc: "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/img/home/ecn.webp",
       heading: t("ecnAccount.heading"),
-      bgImage: "/account3.webp", // Dynamic background
     },
   ];
 
   return (
-    <section className="py-10 lg:py-[90px] border-t border-gray-300">
-      <div className="max-w-5xl mx-auto text-center">
-        {/* Section Title */}
+    <section className="py-10 lg:py-[90px]">
+      <div className="container mx-auto">
+        <div className="flex flex-row items-center justify-between gap-10">
+          {/* Left Section - Asset Markets */}
+          <div className="text-center md:text-left basis-1/3">
+            <p className="text-2xl md:text-text-4xl text-priamry font-semibold text-center">
+              +27,000  Trading Instruments
+            </p>
+            <div className="flex items-center justify-center md:justify-start gap-3">
+              <div className="relative w-full h-80">
+                <Image
+                  src="/assests.webp"
+                  alt="8 Asset Markets"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <div className="w-80 ml-[-120px]">
+              <h2 className="HeadingH2 md:mb-3 bg-gradient-to-r from-primary via-secondary  from-10% to-primary to-90% inline-block text-transparent bg-clip-text font-medium text-left">
+              Asset Markets
+        </h2>
+            
+                <p className="text-base text-secondary"> Forex | CFDs | Metals | Shares | Commodities | Stocks | Energies </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Right Section - Account Types */}
+          <div className="text-center  basis-2/3">
+           {/* Section Title */}
         <h2 className="HeadingH2 mb-5 bg-gradient-to-r from-primary via-secondary to-primary font-medium inline-block text-transparent bg-clip-text">
           {t("heading")}
         </h2>
-        <p className="text mb-8">{t("desc")}</p>
+        <p className="text">{t("desc")}</p>
 
-        {/* Account Types */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
-          {accountTypes.map((account, index) => (
-            <div
-              key={index}
-              className="flex flex-col items-center gap-4 h-80 p-8 bg-contain bg-no-repeat bg-center"
-              style={{ backgroundImage: `url(${account.bgImage})` }} // Dynamic Background
-            >
-              {/* Heading at the Top */}
-              <h4 className="text-primary text-lg uppercase font-medium">
-                {account.heading}
-              </h4>
-
-              {/* Spacer to push button to the bottom */}
-              <div className="flex-grow"></div>
-
-              {/* Button at the Bottom */}
-              <Link href="/account-types" className="bg-[#263f8f] text-white font-medium uppercase w-36 block py-2 hover:bg-secondary hover:text-white transition">
-           
-                 {t('view_more')}
-                
-              </Link>
+            {/* Account Type Boxes with Background Images */}
+            <div className="flex justify-center gap-4 mt-6">
+              {accountTypes.map((account, index) => (
+                <div
+                  key={index}
+                  className="w-60 h-60 flex flex-col items-center justify-center relative overflow-hidden gap-12"
+                  style={{
+                    backgroundImage: `url(${account.bgImage})`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                  }}
+                >
+                  <Link href='/account-types' className="flex justify-start items-center hover:underline cursor-pointer gap-2 pb-2 pt-5">
+                    <div className="relative w-16 h-16">
+                      <Image
+                        src={account.iconSrc}
+                        alt=""
+                        fill
+                        className="object-contain"
+                      />
+                    </div>
+                    <p className="text text-xl line-clamp-2 font-semibold uppercase w-32 text-left">{account.heading}</p>
+                    </Link>
+                  <Link
+                    href="/account-types"
+                    className="text-xl font-bold text-secondary px-2 py-1 rounded-lg hover:text-primary transition"
+                  >
+                      {t('view_more')}
+                  </Link>
+                </div>
+              ))}
             </div>
-          ))}
+          </div>
         </div>
       </div>
     </section>
