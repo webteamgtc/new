@@ -6,7 +6,7 @@ import { useTranslations } from "next-intl";
 const ClientPayments = () => {
     const t = useTranslations("home")
     return (
-        <section className="py-10 lg:py-[40px] border-b border-t border-b-gray-300 bg-[#fff]">
+        <section className="py-10 lg:py-[70px] border-b border-t border-b-gray-300 bg-[#fff]">
             <div className="container mx-auto lg:px-16">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
                     

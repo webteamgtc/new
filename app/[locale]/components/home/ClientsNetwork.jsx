@@ -3,13 +3,14 @@ import Image from "next/image";
 import LiveAccountButton from "../liveAccountButton";
 import JoinIBNetwork from "./JoinIBNetwork";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 const ClientsNetwork = () => {
 
     const t = useTranslations("home.home_IB")
     return (
         <>
-        <section className="py-10 lg:py-[90px] border-b border-t border-b-gray-300 bg-[url('/gtcfx-bg.webp')] bg-cover bg-center">
+        <section className="py-10 lg:py-[70px] border-b border-t border-b-gray-300">
             <div className="container mx-auto lg:px-16">
                 <div className="flex flex-col md:flex-row justify-between items-center gap-10">
                     
@@ -22,7 +23,13 @@ const ClientsNetwork = () => {
                         {t("des")}
                         </p>
                         <div className="mt-5">
-                            <LiveAccountButton />
+                        <Link
+                            href=""
+                            target="_blank"
+                            className={`bg-[#263f8f] text-white text-sm 3xl:text-xl px-8 py-2 text-center md:w-auto w-[300px] md:m-0 mx-auto transition-colors duration-900 hover:bg-gradient-to-r hover:from-secondary hover:to-[#b68756] duration-500 uppercase`}
+                            >
+                            Become an Introducing Broker
+                            </Link>
                             </div>
                     </div>
 

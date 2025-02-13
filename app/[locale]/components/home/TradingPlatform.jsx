@@ -25,7 +25,7 @@ export default function TradingPlatform() {
   ];
 
   return (
-    <section className="py-10 lg:py-[90px]">
+    <section className="py-10 lg:py-[70px]">
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-10">
           {/* Left Section - Asset Markets */}

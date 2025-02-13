@@ -99,7 +99,8 @@ export default function Markets() {
 
   const iframeContainerStyle = {
     position: 'relative',
-    height: '550px'
+    height: '550px',
+    borderRadius: '6px'
 
   };
 
@@ -116,7 +117,7 @@ export default function Markets() {
 
   return (
     <>
-      <section className="pt-10 lg:py-[90px] border-b border-t border-b-gray-300 bg-[url('/why.jpg')] bg-cover bg-center">
+      <section className="pt-10 lg:py-[70px] border-b border-t border-b-gray-300 bg-[url('/why.jpg')] bg-cover bg-center">
       <div className="container">
         <div className="grid grid-cols-1 gap-4 items-start">
         <div className="text-center">
@@ -136,7 +137,7 @@ export default function Markets() {
        </div>
      </div>
      {/* Add this div to cover the bottom 30px */}
-     <div style={iframeOverlayStyle} className="rounded-mg"></div>
+     <div style={iframeOverlayStyle}></div>
    </div>
         </div>
   

@@ -26,7 +26,7 @@ const LiquiditySolutions = () => {
   };
 
   return (
-    <section className="py-10 lg:py-[90px] bg-[#ECF3FD] bg-[url('/platform-bg.png')] bg-cover bg-center bg-blend-multiply text-center">
+    <section className="py-10 lg:py-[70px] bg-[#ECF3FD] bg-[url('/platform-bg.png')] bg-cover bg-center bg-blend-multiply text-center">
 
       <div className="container mx-auto px-6 lg:px-16">
       <div className="text-center mb-6">
