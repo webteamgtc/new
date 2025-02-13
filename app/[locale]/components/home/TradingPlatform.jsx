@@ -42,9 +42,9 @@ export default function TradingPlatform() {
                   className="object-contain"
                 />
               </div>
-              <div className="w-80 ml-[-120px]">
-              <h2 className="HeadingH2 md:mb-3 bg-gradient-to-r from-primary via-secondary  from-10% to-primary to-90% inline-block text-transparent bg-clip-text font-medium text-left">
-              Asset Markets
+              <div className="w-96 ml-[-110px]">
+              <h2 className="HeadingH2 lg:text-[32px] mb-5 text-secondary font-medium text-left italic">
+              Assets Markets
         </h2>
             
                 <p className="text-base text-secondary"> Forex | CFDs | Metals | Shares | Commodities | Stocks | Energies </p>
