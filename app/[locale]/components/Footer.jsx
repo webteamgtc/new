@@ -224,7 +224,7 @@ const Footer = () => {
     <>
       {isNotHomePage && <TradeInvest />}
       <div
-        className={`bg-primary pb-10 z-30 ${isNotHomePage ? "pt-[8%] sm:pt-[18%] lg:pt-[16%] xl:pt-[12%] 2xl:pt-[10%] 3xl:pt-[9%] 4xl:pt-[6%]" : "pt-10"}`}
+        className={`bg-gradient-to-b from-[#273c8f] from-10% via-[#222e73] via-30% to-[#141b43] pb-10 z-30 ${isNotHomePage ? "pt-[8%] sm:pt-[18%] lg:pt-[16%] xl:pt-[12%] 2xl:pt-[10%] 3xl:pt-[9%] 4xl:pt-[6%]" : "pt-10"}`}
       >
         <div className="container grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-4 md:gap-8 px-3">
           {footerLinks.map((footerlink) => (

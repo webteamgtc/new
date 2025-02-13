@@ -32,7 +32,7 @@ const Hero = () => {
         }`}
         onLoadedData={() => setVideoLoaded(true)} // Set state when video loads
       >
-        <source src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/videos/brand-gtc.mp4" type="video/mp4" />
+        <source src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/videos/gtcfx-brand-video.mp4" type="video/mp4" />
       </video>
 
       <div className="container relative z-10 text-white">
