@@ -42,7 +42,7 @@ const ClientsNetwork = () => {
                 <JoinIBNetwork />
             </div>
         </section>
-        <section className="py-5 text-center bg-gradient-to-r from-[#273c8f] from-10% via-primary via-30% to-primary">
+        <section className="py-5 text-center bg-primary">
                 <div className="container">
                 <h2 className="HeadingH2 bg-gradient-to-r from-secondary via-[#dcc8b2]  from-10% to-secondary to-90% inline-block text-transparent bg-clip-text font-semibold uppercase mb-0"> {t("label")}</h2>
                 </div>

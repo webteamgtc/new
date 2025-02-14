@@ -12,7 +12,7 @@ const ClientPayments = () => {
                     
                     {/* Left Section - Text and Button */}
                     <div className="text-center md:text-left text">
-                        <h2 className="HeadingH2 mb-5 font-medium md:text-left max-w-lg px-10 md:px-0">
+                        <h2 className="HeadingH2 mb-5 font-medium md:text-left md:max-w-lg px-10 md:px-0">
                             {t("our-payment")}
                         </h2>
                         <p>

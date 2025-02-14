@@ -25,17 +25,17 @@ export default function TradingPlatform() {
   ];
 
   return (
-    <section className="py-10 lg:py-[70px]  bg-[url('/line-bg.jpg')] bg-cover bg-center">
+    <section className="py-10 lg:py-[70px]  md:bg-[url('/line-bg.jpg')] bg-cover bg-center">
       <div className="container mx-auto">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-10">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-5 md:gap-10">
           {/* Left Section - Asset Markets */}
-          <div className="text-center md:text-left basis-full md:basis-2/4">
+          <div className="text-center md:text-left basis-full md:basis-2/4 border-b-2 md:border-none border-gray-200">
       
             <h2 className="HeadingH2 md:text-4xl mb-5 font-medium">
             +27,000  <span className="text-secondary font-normal  md:text-3xl">Trading Instruments</span>
         </h2>
-            <div className="flex flex-col md:flex-row items-center justify-center md:justify-start gap-3">
-              <div className="relative w-full h-36 md:h-80">
+            <div className="flex flex-row items-center justify-center md:justify-start gap-3">
+              <div className="relative w-32 md:w-full h-28 md:h-80">
                 <Image
                   src="/assests.webp"
                   alt="8 Asset Markets"
@@ -44,11 +44,11 @@ export default function TradingPlatform() {
                 />
               </div>
               <div className="md:w-[690px] md:ml-[-140px]">
-              <h2 className="HeadingH2 lg:text-[45px] mb-8 text-secondary font-medium md:text-left italic">
-              Assets Markets
+              <h2 className="HeadingH2 lg:text-[45px] md:mb-8 text-secondary font-medium md:text-left italic">
+              Asset Markets
         </h2>
             
-                <p className="text-lg md:text-sm text-secondary"> Forex | CFDs | Metals | Shares | Commodities | Stocks | Energies </p>
+                <p className="text-xs md:text-sm text-secondary"> Forex | CFDs | Metals | Shares | Commodities | Stocks | Energies </p>
               </div>
             </div>
           </div>
@@ -56,13 +56,13 @@ export default function TradingPlatform() {
           {/* Right Section - Account Types */}
           <div className="text-center basis-full md:basis-2/4">
            {/* Section Title */}
-        <h2 className="HeadingH2 mb-5 font-medium">
+        <h2 className="HeadingH2 md:mb-5 font-medium">
           {t("heading")}
         </h2>
         <p className="text">{t("desc")}</p>
 
             {/* Account Type Boxes with Background Images */}
-            <div className="flex flex-row justify-center items-center md:gap-4 mt-6">
+            <div className="flex flex-row justify-center items-center md:gap-4 md:mt-6">
               {accountTypes.map((account, index) => (
                 <div
                   key={index}

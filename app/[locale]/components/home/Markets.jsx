@@ -1,10 +1,14 @@
 import { useTranslations } from "next-intl";
 import { useEffect, useRef } from "react";
 import TradingPlatform from "./TradingPlatform";
+import { usePathname } from "next/navigation";
 
 export default function Markets() {
   const widgetRef = useRef(null);
   const t = useTranslations("home.markets_ct");
+  const path= usePathname();
+  const isAr = path.includes("/ar-AE");
+  const isCh = path.includes("/zh-hans");
 
   useEffect(() => {
     if (widgetRef.current) {
@@ -18,7 +22,7 @@ export default function Markets() {
       script.src = "https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js";
       script.async = true;
       script.innerHTML = JSON.stringify({
-        colorTheme: "dark",
+        colorTheme: "light",
         dateRange: "12M",
         showChart: true,
         locale: "en",
@@ -99,7 +103,7 @@ export default function Markets() {
 
   const iframeContainerStyle = {
     position: 'relative',
-    height: '550px',
+    height: '622px',
     borderRadius: '6px'
 
   };
@@ -110,17 +114,25 @@ export default function Markets() {
     left: 0,
     right: 0,
     height: '40px',
-    backgroundColor: '#1f1f1f', // Or match your page background color
+    backgroundColor: 'white', // Or match your page background color
     zIndex: 10,
   };
+  let pathUrl;
 
+  if (isAr) {
+    pathUrl = "https://www.tradays.com/ar/economic-calendar/widget?mode=2&utm_source=mountaxis.com";
+  } else if (isCh) {
+    pathUrl = "https://www.tradays.com/zh/economic-calendar/widget?mode=2&utm_source=mountaxis.com"; // Assuming you have a zh-2.webp for Chinese
+  } else {
+    pathUrl = "https://www.tradays.com/en/economic-calendar/widget?mode=2&utm_source=mountaxis.com"; // Default image
+  }
 
   return (
     <>
       <section className="pt-10 lg:py-[70px] border-b border-t border-b-gray-300 bg-[url('/overlay-1.jpg')] bg-cover bg-center">
       <div className="container">
-        <div className="grid grid-cols-1 gap-4 items-start">
-        <div className="text-center">
+        <div className="grid grid-cols-2 gap-4 items-start">
+        <div className="text-left">
         <h2 className="HeadingH2 md:mb-3 bg-gradient-to-r from-secondary via-[#dcc8b2]  from-10% to-secondary to-90% inline-block text-transparent bg-clip-text font-medium">
           {t("title")}
         </h2>
@@ -140,6 +152,20 @@ export default function Markets() {
      <div style={iframeOverlayStyle}></div>
    </div>
         </div>
+        <div className="text-left">
+        <h2 className="HeadingH2 md:mb-3 bg-gradient-to-r from-secondary via-[#dcc8b2]  from-10% to-secondary to-90% inline-block text-transparent bg-clip-text font-medium">
+        Economic Calendar
+        </h2>
+        <p className="text-white md:text-base text-sm 2xl:text-[17px] max-w-6xl mx-auto mb-5">Stay updated with our economic calendar. Keep track of upcoming economic events and their effects on market movements.</p>
+        <iframe
+          src={pathUrl}
+          width="100%"
+          height="620px"
+          style={{ border: "unset" }} // Use an object for inline styles
+          className="border-none" // Add Tailwind class for border-none
+        ></iframe>
+        </div>
+        
   
         </div>
         
