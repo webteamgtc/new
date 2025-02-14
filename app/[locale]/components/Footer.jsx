@@ -157,39 +157,7 @@ const Footer = () => {
         },
       ],
     },
-    {
-      title: t("policy.label"),
-      links: [
-        {
-          name: t("policy.menu1"),
-          link: "/privacy-policy",
-        },
-        {
-          name: t("policy.menu2"),
-          link: "/withdrawal-policy",
-        },
-        {
-          name: t("policy.menu3"),
-          link: "/kyc-compliance-policy",
-        },
-        {
-          name: t("policy.menu4"),
-          link: "/deposit-and-refund-policy",
-        },
-        {
-          name: t("policy.menu5"),
-          link: "/customer-due-diligence-policy",
-        },
-        {
-          name: t("policy.menu6"),
-          link: "/terms-and-conditions",
-        },
-        {
-          name: t("policy.menu7"),
-          link: "/risk-warning",
-        },
-      ],
-    },
+
   ];
   const contact = [
     {
@@ -226,7 +194,7 @@ const Footer = () => {
       <div
         className={`bg-primary pb-10 z-30 ${isNotHomePage ? "pt-[8%] sm:pt-[18%] lg:pt-[16%] xl:pt-[12%] 2xl:pt-[10%] 3xl:pt-[9%] 4xl:pt-[6%]" : "pt-10"}`}
       >
-        <div className="container grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-4 md:gap-8 px-3">
+        <div className="container grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8 px-3">
           {footerLinks.map((footerlink) => (
             <div key={footerlink.title}>
               <h4 className="font-regular pb-2 text-secondary text-base underline-offset-1 ">
@@ -359,7 +327,12 @@ const Footer = () => {
             
               {t("footerNotice.eightPara")}{" "}
             </p>
-         
+          <div className="flex flex-row flex-wrap justify-center md:justify-start gap-4 items-center">
+                <Link target="_blank" href="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/pdf-files/PRIVACY+POLICY+GTCFX.pdf" className="text-center text-white py-2 w-36 border border-gray-100 border-opacity-10 hover:bg-white hover:text-primary">Privacy Policy</Link>
+                <Link target="_blank" href="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/pdf-files/Risk+Warning.pdf" className="text-center text-white py-2 w-36 border border-gray-100 border-opacity-10 hover:bg-white hover:text-primary">Risk Warning</Link>
+                <Link target="_blank" href="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/pdf-files/Cookie+Policy.pdf" className="text-center text-white py-2 w-36 border border-gray-100 border-opacity-10 hover:bg-white hover:text-primary">Cookie Policy</Link>
+                <Link target="_blank" href="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/pdf-files/Website+Disclaimer.pdf" className="text-center text-white py-2 w-36 border border-gray-100 border-opacity-10 hover:bg-white hover:text-primary">Website Disclaimer</Link>
+          </div>
           </div>
         </div>
       </div>

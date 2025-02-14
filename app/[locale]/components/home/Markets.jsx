@@ -129,15 +129,17 @@ export default function Markets() {
 
   return (
     <>
-      <section className="pt-10 lg:py-[70px] border-b border-t border-b-gray-300 bg-[url('/overlay-1.jpg')] bg-cover bg-center">
+      <section className="pt-10 lg:py-[70px] bg-primary">
       <div className="container">
-        <div className="grid grid-cols-2 gap-4 items-start">
-        <div className="text-left">
+      <div className="text-center">
         <h2 className="HeadingH2 md:mb-3 bg-gradient-to-r from-secondary via-[#dcc8b2]  from-10% to-secondary to-90% inline-block text-transparent bg-clip-text font-medium">
           {t("title")}
         </h2>
         <p className="text-white md:text-base text-sm 2xl:text-[17px] max-w-6xl mx-auto mb-5">{t("sub_title")}
         </p>
+        </div>
+        <div className="grid grid-cols-2 gap-4 items-start">
+       
         <div style={iframeContainerStyle}>
      
      <div className="tradingview-widget-container" ref={widgetRef}>
@@ -151,12 +153,9 @@ export default function Markets() {
      {/* Add this div to cover the bottom 30px */}
      <div style={iframeOverlayStyle}></div>
    </div>
-        </div>
-        <div className="text-left">
-        <h2 className="HeadingH2 md:mb-3 bg-gradient-to-r from-secondary via-[#dcc8b2]  from-10% to-secondary to-90% inline-block text-transparent bg-clip-text font-medium">
-        Economic Calendar
-        </h2>
-        <p className="text-white md:text-base text-sm 2xl:text-[17px] max-w-6xl mx-auto mb-5">Stay updated with our economic calendar. Keep track of upcoming economic events and their effects on market movements.</p>
+   <div className="text-left">
+   
+       
         <iframe
           src={pathUrl}
           width="100%"
@@ -165,6 +164,8 @@ export default function Markets() {
           className="border-none" // Add Tailwind class for border-none
         ></iframe>
         </div>
+        </div>
+       
         
   
         </div>
@@ -173,7 +174,7 @@ export default function Markets() {
       
       
      
-      </div>
+      
     </section>
     </>
    
