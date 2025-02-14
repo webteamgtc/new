@@ -12,7 +12,7 @@ const Hero = () => {
   const [videoLoaded, setVideoLoaded] = useState(false);
 
   return (
-    <section className="relative w-full h-[500px] md:h-[600px] lg:h-[700px] xl:h-[800px] 2xl:h-[1000px] flex items-center justify-center text-center overflow-hidden">
+    <section className="relative w-full h-[400px] md:h-[500px] lg:h-[550px] xl:h-[600px] 2xl:h-[1000px] flex items-center justify-center text-center overflow-hidden">
       {/* Background Image (visible until video loads) */}
       {!videoLoaded && (
         <img
