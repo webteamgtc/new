@@ -138,7 +138,7 @@ export default function Markets() {
         <p className="text-white md:text-base text-sm 2xl:text-[17px] max-w-6xl mx-auto mb-5">{t("sub_title")}
         </p>
         </div>
-        <div className="grid grid-cols-2 gap-4 items-start">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-start"> 
        
         <div style={iframeContainerStyle}>
      
