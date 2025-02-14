@@ -47,7 +47,7 @@ const TopBar = ({ currentLanguage, isAr, href }) => {
     const registerLink = `${baseLink}`;
 
     return (
-        <section className="hidden md:block border-b border-gray-200 bg-[#ECF3FD]" id="register1">
+        <section className="hidden md:block border-b border-gray-200 bg-primary text-white" id="register1">
             <div className="container flex flex-row justify-between items-center">
                 <div className="content-top border-l pl-2 flex flex-row gap-2">
                     <p className="text-[14px] font-[400] flex gap-2 py-4 ">
@@ -57,13 +57,13 @@ const TopBar = ({ currentLanguage, isAr, href }) => {
                 </div>
                 <div className={`flex items-center gap-2 ${isAr ? "rtl:md:mr-4" : "ltr:md:ml-4"}`}>
                     <div className="flex flex-col lg:flex-row">
-                        <Link href={newClientPortalLink} target="_blank" className="hidden text-primary hover:bg-primary hover:text-white text-sm border border-gray-200 px-3 py-[6px] md:flex gap-2 items-center">
+                        <Link href={newClientPortalLink} target="_blank" className="hidden text-white uppercase hover:bg-white hover:text-secondary text-sm border border-gray-200 px-3 py-[6px] md:flex gap-2 items-center">
                             <MdOutlineLogin size={20} />
                             {t("new_client_portal")}
                         </Link>
                     </div>
                     <div className="flex flex-col lg:flex-row">
-                        <Link href={accountLink} target="_blank" className="hidden text-white uppercase bg-[#29a643] hover:bg-primary hover:text-white text-sm border border-gray-200 px-3 py-[6px] md:flex gap-2 items-center">
+                        <Link href={accountLink} target="_blank" className="hidden text-white uppercase bg-[#29a643] hover:bg-white hover:text-primary text-sm border border-gray-200 px-3 py-[6px] md:flex gap-2 items-center">
                             {t("tobbar.account")}
                         </Link>
                     </div>

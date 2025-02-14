@@ -15,7 +15,7 @@ const Steps = () => {
             <Image src='/1_step.webp' width={40} height={50} alt='steps'/>
             <div className='flex flex-col' >
                 <Image src='/icon1_step.webp' width={100} height={100} alt=''/>
-                <span className='text-white font-[600] md:text-[1rem]'>Open Live Account</span>
+                <span className='text-white font-[600] md:text-[1rem]'>Open Live Account </span>
             </div>
         </div>
         <div className='flex gap-2 mb-6 lg:mb-0'>

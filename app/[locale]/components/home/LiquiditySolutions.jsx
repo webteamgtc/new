@@ -30,7 +30,7 @@ const LiquiditySolutions = () => {
 
       <div className="container mx-auto px-6 lg:px-16">
       <div className="text-center mb-6">
-        <h2 className="HeadingH2 mb-5 bg-gradient-to-r from-primary via-secondary  from-10% to-primary to-90% font-medium inline-block text-transparent bg-clip-text text-center">
+        <h2 className="HeadingH2  font-medium mb-5 text-center">
         {t("heading")}
         </h2>
         <p className="text-accent md:text-base text-sm 2xl:text-[17px] text-center max-w-6xl mx-auto"> {t("desc")}
@@ -63,7 +63,7 @@ const LiquiditySolutions = () => {
           <Link
       href=""
       target="_blank"
-      className={`bg-[#263f8f] text-white text-sm 3xl:text-xl px-8 py-2 text-center md:w-auto w-[300px] md:m-0 mx-auto transition-colors duration-900 hover:bg-gradient-to-r hover:from-secondary hover:to-[#b68756] duration-500`}
+      className={`bg-secondary text-white text-sm 3xl:text-xl px-8 capitalize py-2 text-center md:w-auto w-[300px] md:m-0 mx-auto transition-colors duration-900 hover:bg-primary duration-500`}
     >
       Apply For Liquidity Service
     </Link>

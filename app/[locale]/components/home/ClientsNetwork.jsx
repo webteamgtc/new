@@ -16,7 +16,7 @@ const ClientsNetwork = () => {
                     
                     {/* Left Section - Text and Button */}
                     <div className="basis-full md:basis-2/5 text-center md:text-left" >
-                    <h2 className="HeadingH2 mb-5 bg-gradient-to-r from-primary via-secondary  from-10% to-primary to-90% font-medium inline-block text-transparent bg-clip-text max-w-[200px] md:max-w-sm  text-left">
+                    <h2 className="HeadingH2 mb-5 font-medium max-w-[200px] md:max-w-sm  text-left">
                   {t("title")}
         </h2>
                         <p className="text-gray-600 mb-6">
@@ -26,7 +26,7 @@ const ClientsNetwork = () => {
                         <Link
                             href=""
                             target="_blank"
-                            className={`bg-[#263f8f] text-white text-sm 3xl:text-xl px-8 py-2 text-center md:w-auto w-[300px] md:m-0 mx-auto transition-colors duration-900 hover:bg-gradient-to-r hover:from-secondary hover:to-[#b68756] duration-500 uppercase`}
+                            className={`bg-secondary text-white text-sm 3xl:text-xl px-8 capitalize py-2 text-center md:w-auto w-[300px] md:m-0 mx-auto transition-colors duration-900 hover:bg-primary duration-500`}
                             >
                             Become an Introducing Broker
                             </Link>
@@ -42,7 +42,7 @@ const ClientsNetwork = () => {
                 <JoinIBNetwork />
             </div>
         </section>
-        <section className="py-5 text-center bg-gradient-to-r from-[#243586] from-10% via-[#273c8f] via-30% to-[#141b43] to-90%">
+        <section className="py-5 text-center bg-gradient-to-r from-[#273c8f] from-10% via-primary via-30% to-primary">
                 <div className="container">
                 <h2 className="HeadingH2 bg-gradient-to-r from-secondary via-[#dcc8b2]  from-10% to-secondary to-90% inline-block text-transparent bg-clip-text font-semibold uppercase mb-0"> {t("label")}</h2>
                 </div>

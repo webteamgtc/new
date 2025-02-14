@@ -8,7 +8,7 @@ const SecurityFund = () => {
 
   const t = useTranslations("home.security_of_funds");
   return (
-    <section className="securityFund py-3 pb-5 text-white border-t border-b border-gray-300 shadow-3xl bg-gradient-to-t from-[#273c8f] from-10% via-[#222e73] via-30% to-[#141b43]">
+    <section className="securityFund py-3 pb-5 text-white border-t border-b border-gray-300 shadow-3xl bg-gradient-to-r from-[#273c8f] from-10% via-primary via-30% to-primary">
       <div className="container">
         <div className="flex flex-row justify-start items-start gap-1">
           <div className="basis-1/6 relative h-10 md:h-16 w-full justify-start">

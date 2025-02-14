@@ -48,7 +48,7 @@ const WhyGTC = () => {
   return (
     <section className="py-10 lg:py-[70px] text-center"> 
       <div className="container">
-        <h2 className="HeadingH2 bg-gradient-to-r from-primary via-secondary  from-10% to-primary to-90% inline-block text-transparent bg-clip-text font-medium">{t("title")}</h2>
+        <h2 className="HeadingH2 font-medium">{t("title")}</h2>
         <p className="text-primary md:text-base 2xl:text-[17px] text-xs text-center">
           {t("desc")}
         </p>

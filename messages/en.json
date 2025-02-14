@@ -34,7 +34,7 @@
       "des": "We Provide Ultra-low Standard And Professional Accounts Tailored To Both Novice And Experienced Traders.",
       "firstcolumn": {
         "heading": "We Offers",
-        "option1": "Open Live Account",
+        "option1": "Open Live Account ",
         "option3": "Free Demo Account",
         "option2": "Fund Your Account"
       },
@@ -119,7 +119,7 @@
     "old_client_portal": "Old Client Portal"
   },
   "common": {
-    "liveAccount": "Open Live Account",
+    "liveAccount": "Open Live Account ",
     "demoAccount": "Free Demo Account"
   },
   "home": {
@@ -153,7 +153,7 @@
       "description": "Trade with GTCFX, Rise to the Top, and Join the Elite at the Golden Falcon Awards!",
       "buttonText": "Read More"
       },
-      "liveAccount": "OPEN LIVE ACCOUNT",
+      "liveAccount": "Open Live Account ",
       "partnerAccount": "BECOME A PARTNER",
       "fact_no1": "985,000",
       "fact_desc1": "+ Served Clients",
@@ -314,7 +314,7 @@
     "tradeInvest": {
       "part1": "TRADE AND INVEST",
       "part2": "WITH THE WORLD’S LEADING ONLINE TRADING PROVIDER",
-      "liveAccount": "OPEN LIVE ACCOUNT"
+      "liveAccount": "Open Live Account "
     },
     "why-gtc-group": {
       "metaData": {
@@ -1085,7 +1085,7 @@
         "trade": {
           "heading1": "Trade With The Most",
           "heading2": "Comprehensive Trading Platform",
-          "btnText": "Open Live Account"
+          "btnText": "Open Live Account "
         }
       },
       "advantages": {
@@ -1124,7 +1124,7 @@
         "trade": {
           "heading1": "Trade With The Most",
           "heading2": "Comprehensive Trading Platform",
-          "btnText": "Open Live Account"
+          "btnText": "Open Live Account "
         }
       },
       "advantages": {
@@ -1163,7 +1163,7 @@
         "trade": {
           "heading1": "Experience the Evolution of",
           "heading2": "Trading with cTrader Mastery.",
-          "btnText": "Open Live Account"
+          "btnText": "Open Live Account "
         }
       },
       "whyCtrader": {
@@ -1773,7 +1773,7 @@
     "firstName": "First Name",
     "fullName": "Full Name",
     "deposit_amount": "Deposit Amount",
-    "head1": "Open Live Account",
+    "head1": "Open Live Account ",
     "head2": "Fund your Account",
     "head3": "Apply for 20% Bonus",
     "lastName": "Last Name",
@@ -2688,7 +2688,7 @@
       "banner": {
         "title": "Liquidity | Connectivity | Risk Solutions",
         "subTitle": "Access To 8 Asset Markets With Over 27,000 Trading Instruments",
-        "liveAccount": "Open Live Account"
+        "liveAccount": "Open Live Account "
       },
       "whoServe": {
         "heading": "Who We Serve",
@@ -2872,7 +2872,7 @@
     "CallAction": {
       "first": "WE OFFER HIGH LEVEL OF TRANSPARENCY WITH OUR",
       "sec": "MT4/MT5 MAM ACCOUNT",
-      "liveAccount": "Open Live Account"
+      "liveAccount": "Open Live Account "
     },
     "faq": {
       "faqHeading": "Frequently Asked Questions",
@@ -2940,7 +2940,7 @@
       "hero": {
         "title": "Signal Centre Tool",
         "para": "Market insights from an FCA Regulated signal provider with unique human and AI-driven analysis",
-        "buttonWhiteText": "Open Live Account"
+        "buttonWhiteText": "Open Live Account "
       },
       "unlockFullTrading": {
         "title": "Unlock Your Full Trading Potential",
@@ -2993,7 +2993,7 @@
       },
       "hero": {
         "heading": "Powerful Virtual Private Servers Tailored to Your Needs",
-        "button": "Open Live Account",
+        "button": "Open Live Account ",
         "buttonHeading": "Don't have an account yet?",
         "para": {
           "yellow1": "Where",
@@ -3033,7 +3033,7 @@
       "howToSubscribe": {
         "titleWhite": "How to",
         "titleColor": "Subscribe?",
-        "option1": "Open Live Account",
+        "option1": "Open Live Account ",
         "option2": "Fill Sign-up Request",
         "option3": "Receive Application Link",
         "option4": "Get Started!"
@@ -3137,7 +3137,7 @@
         "heading": "Expert",
         "heading2": "Technical Analysis",
         "heading3": "& Investment Decision Tools!",
-        "button1": "Open Live Account",
+        "button1": "Open Live Account ",
         "button2": "Free Demo Account",
         "powerBy": "Powered By"
       },
@@ -3149,7 +3149,7 @@
       },
       "banner": {
         "heading": "Get FREE Access to Most High Tech, Advanced and Intuitive Trading Tools",
-        "button1": "Open Live Account",
+        "button1": "Open Live Account ",
         "button2": "Free Demo Account"
       },
       "autoCharlist": {
@@ -3212,7 +3212,7 @@
           "title": "Trading Opportunities",
           "desc": " Autochartist’s technical, statistical, macroeconomic, fundamental, and news sentiment analysis content ensures that you engage clients of all trading styles and levels.",
           "demo": "Open Demo Account",
-          "live": " Open Live Account"
+          "live": " Open Live Account "
         }
       }
     }
@@ -3242,7 +3242,7 @@
         "subtitle": "Boost your trading journey with a 20% tradable and withdrawable bonus, applicable on funded accounts, up to $20,000.",
         "description": "Simply open a live account, fund it, and apply for your bonus today with GTCFX. Don't miss this exclusive opportunity!",
         "validUntil": "Valid Until: 28 February 2025",
-        "button":"Open Live Account",
+        "button":"Open Live Account ",
         "tc": "*Terms and conditions apply. "
        },
        "banner2":{
@@ -3271,7 +3271,7 @@
           "two":"Trade 90 lots to Convert every $100 Bonus to Balance.",
           "three":"Redeposit Bonus: 10% Bonus on Second Deposit."          
         },
-        "liveButton": "Open Live Account"
+        "liveButton": "Open Live Account "
         
       },
       "invest":{
