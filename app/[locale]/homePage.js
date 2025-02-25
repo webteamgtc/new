@@ -39,55 +39,7 @@ export default function HomePage() {
     },
 
   ];
-  const assetData = [
-    {
-      name: t("products.title1"),
-      description: t("products.desc1"),
-      imageUrl: "/icons-new/icons-30.webp",
-      alt: "Forex"
-    },
-    {
-      name: t("products.title2"),
-      description: t("products.desc2"),
-      imageUrl: "/icons-new/icons-31.webp",
-      alt: "Crypto CFDs"
-    },
-   
-    {
-      name: t("products.title4"),
-      description: t("products.desc4"),
-      imageUrl: "/icons-new/icons-32.webp",
-      alt: "CFDs"
-    },
-    {
-      name: t("products.title5"),
-      description: t("products.desc5"),
-      imageUrl: "/icons-new/icons-34.webp",
-      alt: "Commodities"
-    }, {
-      name: t("products.title6"),
-      description: t("products.desc6"),
-      imageUrl: "/icons-new/icons-36.webp",
-      alt: "Indices"
-    }, {
-      name: t("products.title7"),
-      description: t("products.desc7"),
-      imageUrl: "/icons-new/icons-35.webp",
-      alt: "Indices"
-    },
-    {
-      name: t("products.title8"),
-      description: t("products.desc8"),
-      imageUrl: "/icons-new/icons-38.webp",
-      alt: "Indices"
-    },
-     {
-      name: t("products.title3"),
-      description: t("products.desc3"),
-      imageUrl: "/icons-new/icons-33.webp",
-      alt: "Indices"
-    },
-  ];
+
 
   return (
     <>

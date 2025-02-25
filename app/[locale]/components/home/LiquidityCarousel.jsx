@@ -3,16 +3,19 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
+import { useTranslations } from "next-intl";
 
 const LiquidityCarousel = () => {
+
+    const t= useTranslations("home.liquidity_provider.tab.one")
   const slides = [
-    { title: "Liquidity", description: "We provide top-tier liquidity solutions globally, ensuring optimal execution and minimal slippage with deep liquidity and advanced technology." },
-    { title: "Forex", description: "Gain access to deep FX liquidity with 200+ trading pairs, tight spreads, competitive margins, and lightning-fast execution." },
-    { title: "Metals", description: "Enhance your business with deep metals liquidity, featuring tight spreads and dependable pricing." },
-    { title: "Commodities", description: "Gain deep liquidity, competitive pricing, and seamless execution across metals, energy, and other key commodity markets." },
-    { title: "Indices", description: "Tap into global indices liquidity with tight spreads, rapid execution, and competitive pricing." },
-    { title: "Energy", description: "Access the energy markets with strong liquidity, tight spreads, and reliable execution." },
-    { title: "Equities", description: "Trade global equities via single-stock CFDs, accessing worldwide markets from one platform with seamless execution. " }
+    { title: t("title"), description: t("d1") },
+    { title: t("p2"), description: t("d2") },
+    { title: t("p3"), description: t("d3") },
+    { title: t("p4"), description: t("d4") },
+    { title: t("p5"), description: t("d5") },
+    { title: t("p6"), description: t("d6") },
+    { title: t("p7"), description: t("d7") }
   ];
 
   return (

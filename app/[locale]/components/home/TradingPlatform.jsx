@@ -31,9 +31,7 @@ export default function TradingPlatform() {
           {/* Left Section - Asset Markets */}
           <div className="text-center md:text-left basis-full md:basis-2/4 border-b-2 md:border-none border-gray-200">
       
-            <h2 className="HeadingH2 md:text-4xl mb-5 font-medium">
-            +27,000  <span className="text-secondary font-normal  md:text-3xl">Trading Instruments</span>
-        </h2>
+           
             <div className="flex flex-row items-center justify-center md:justify-start gap-3">
               <div className="relative w-32 md:w-full h-28 md:h-80">
                 <Image
@@ -43,12 +41,15 @@ export default function TradingPlatform() {
                   className="object-contain"
                 />
               </div>
-              <div className="md:w-[690px] md:ml-[-140px]">
-              <h2 className="HeadingH2 lg:text-[45px] md:mb-8 text-secondary font-medium md:text-left italic">
-              Asset Markets
+              <div className="md:w-[750px] ltr:md:ml-[-150px] rtl:md:mr-[-150px]">
+              <h2 className="HeadingH2 md:text-4xl font-bold italic">
+            {t("assetNum")} <span className=" font-normal  md:text-3xl">{t("assetTit")}</span>
+        </h2>
+              <h2 className="HeadingH2 lg:text-[50px] md:my-6 text-secondary font-medium rtl:md:text-right ltr:md:text-left italic">
+              {t("assetMar")}
         </h2>
             
-                <p className="text-xs md:text-sm text-secondary"> Forex | CFDs | Metals | Shares | Commodities | Stocks | Energies </p>
+                <p className="text-xs md:text-sm rtl:md:text-right ltr:md:text-left"> {t("AssetNam")} </p>
               </div>
             </div>
           </div>

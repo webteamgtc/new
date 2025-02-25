@@ -15,8 +15,8 @@ const ClientsNetwork = () => {
                 <div className="flex flex-col md:flex-row justify-between items-center gap-10">
                     
                     {/* Left Section - Text and Button */}
-                    <div className="basis-full md:basis-2/5 text-center md:text-left" >
-                    <h2 className="HeadingH2 mb-5 font-medium max-w-[200px] md:max-w-sm  text-left">
+                    <div className="basis-full md:basis-2/5 text-center rtl:md:text-right ltr:md:text-left" >
+                    <h2 className="HeadingH2 mb-5 font-medium max-w-[200px] rtl:md:max-w-xl ltr:md:max-w-sm rtl:text-right  ltr:text-left">
                   {t("title")}
         </h2>
                         <p className="text-gray-600 mb-6">
@@ -28,7 +28,7 @@ const ClientsNetwork = () => {
                             target="_blank"
                             className={`bg-secondary text-white text-sm 3xl:text-xl px-8 capitalize py-2 text-center md:w-auto w-[300px] md:m-0 mx-auto transition-colors duration-900 hover:bg-primary duration-500`}
                             >
-                            Become an Introducing Broker
+                            {t("butttonIB")}
                             </Link>
                             </div>
                     </div>

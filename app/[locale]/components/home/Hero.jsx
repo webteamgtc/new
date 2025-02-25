@@ -93,8 +93,8 @@ const Hero = () => {
               </p>
               <h3 className="uppercase bg-gradient-to-r from-secondary via-[#dcc8b2]  from-10% to-secondary to-90% inline-block text-transparent bg-clip-text max-w-2xl mx-auto">
                 <span className="text-[20px] md:text-4xl xl:text-5xl font-bold">
-                  {" "}
-                  {t("slider3.subheading")}{" "}
+    
+                  {t("slider3.subheading")}
                 </span>
               </h3>
               <h2 className="text-xl lg:text-3xl uppercase">
@@ -113,13 +113,12 @@ const Hero = () => {
           <SwiperSlide>
             <div className="grid grid-cols-1 md:gap-3 items-center lg:flex-row w-[100%]">
               <p className="text-sm md:text-[2xl] 2xl:text-2xl uppercase">
-                {" "}
-                Deep Liquidity Access
+          
+                {t("slider4.heading")}
               </p>
               <h3 className="uppercase bg-gradient-to-r from-secondary via-[#dcc8b2]  from-10% to-secondary to-90% inline-block text-transparent bg-clip-text max-w-3xl mx-auto">
                 <span className="text-[20px] md:text-4xl xl:text-5xl font-bold">
-                  {" "}
-                  Direct Access to Top-Tier Liquidity Providers
+                {t("slider4.subheading")}
                 </span>
               </h3>
 
@@ -131,13 +130,11 @@ const Hero = () => {
               <SwiperSlide>
             <div className="grid grid-cols-1 md:gap-3 items-center lg:flex-row w-[100%]">
               <p className="text-sm md:text-[2xl] 2xl:text-2xl uppercase">
-                {" "}
-                Advanced Technology
+              {t("slider5.heading")}
               </p>
               <h3 className="uppercase bg-gradient-to-r from-secondary via-[#dcc8b2]  from-10% to-secondary to-90% inline-block text-transparent bg-clip-text max-w-3xl mx-auto">
                 <span className="text-[20px] md:text-4xl xl:text-5xl font-bold">
-                  {" "}
-                  Experience Cutting-Edge Trading Infrastructure 
+                {t("slider5.subheading")}
                 </span>
               </h3>
 

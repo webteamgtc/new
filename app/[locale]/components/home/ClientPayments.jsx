@@ -11,8 +11,8 @@ const ClientPayments = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
                     
                     {/* Left Section - Text and Button */}
-                    <div className="text-center md:text-left text">
-                        <h2 className="HeadingH2 mb-5 font-medium md:text-left md:max-w-lg px-10 md:px-0">
+                    <div className="text-center rtl:md:text-right ltr:md:text-left text">
+                        <h2 className="HeadingH2 mb-5 font-medium rtl:md:text-right ltr:md:text-left md:max-w-lg px-10 md:px-0">
                             {t("our-payment")}
                         </h2>
                         <p>

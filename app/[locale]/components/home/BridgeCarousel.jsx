@@ -3,13 +3,16 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
+import { useTranslations } from "next-intl";
 
 const BridgeCarousel = () => {
+
+ const t= useTranslations("home.liquidity_provider.tab.three")
   const slides = [
-    { title: "oneZero Hub", description: "Experience deep liquidity, ultra-fast execution, real-time data, and a customizable trading environment—secure and efficient trading at its best." },
-    { title: "PrimeXM XCORE", description: "Trade faster, smarter, and safer with deep liquidity, ultra-low latency execution, real-time insights, and secure, flexible trading solutions." },
-    { title: "Centroid Hub", description: "Enhance trading efficiency with deep liquidity, ultra-fast execution, real-time insights, and seamless market connectivity—all secured for optimal performance." },
-    { title: "GTC Prime Bridges", description: "Seamlessly connect to multiple platforms and liquidity providers with fast execution, optimized performance, and secure data transmission." }
+    { title: t("p1"), description: t("d1") },
+    { title: t("p2"), description: t("d2") },
+    { title: t("p3"), description: t("d3") },
+    { title: t("p4"), description: t("d4") }
   ];
 
   return (

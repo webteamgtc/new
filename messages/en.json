@@ -138,20 +138,20 @@
        "heading1": "8",
        "heading2": "Markets with",
       "subheading": "+27,000",
-      "subheading2": "Trading Instruments",
-      "description": "Forex | CFDs | Metals | Shares | Commodities | Stocks | Energies"
+      "subheading2": "Trading Instruments"
       },
       "slider3": {
       "heading": "Experience Cutting-Edge Trading Tools",
       "subheading": "on the Most Stable",
-      "description": "Trading Platform",
-      "extra": "MT4 | MT5"
+      "description": "Trading Platform"
       },
       "slider4": {
-       "heading": "Celebrating 12 Years of Financial Excellence",
-      "subheading": "The First GOLDEN FALCON AWARDS NIGHT",
-      "description": "Trade with GTCFX, Rise to the Top, and Join the Elite at the Golden Falcon Awards!",
-      "buttonText": "Read More"
+       "heading": "Deep Liquidity Access",
+      "subheading": "Direct Access to Top-Tier Liquidity Providers"
+      },
+      "slider5": {
+       "heading": "Advanced Technology",
+      "subheading": "Experience Cutting-Edge Trading Infrastructure "
       },
       "liveAccount": "Open Live Account ",
       "partnerAccount": "BECOME A PARTNER",
@@ -204,7 +204,11 @@
       "ecnAccount": {
         "heading": "ECN Account"
       },
-      "view_more": "View Details"
+      "view_more": "View Details",
+      "assetNum": "+27,000",
+      "assetTit": "Trading Instruments",
+      "assetMar": " Asset Markets",
+      "AssetNam": "Forex | CFDs | Metals | Shares | Commodities | Stocks | Energies"
     },
     "security_of_funds": {
       "title": "Security of Funds",
@@ -232,6 +236,45 @@
     "liquidity_provider": {
       "heading": "Direct Access to Top Tier Liquidity Provider",
       "desc": "GTCFX provides market access to prominent Tier-1 FX Liquidity platforms, equipping your enterprise with cutting-edge technology, an extensive Liquidity reservoir, lightning-fast execution, and expert support. we uphold full transparency and trading anonymity while offering ultra-competetive trading costs",
+      "tab": {
+         "one": {
+          "title": "Liquidity",
+          "d1": "We provide top-tier liquidity solutions globally, ensuring optimal execution and minimal slippage with deep liquidity and advanced technology.",
+          "p2": "Forex",
+          "d2": "Gain access to deep FX liquidity with 200+ trading pairs, tight spreads, competitive margins, and lightning-fast execution.",
+          "p3": "Metals",
+          "d3": "Enhance your business with deep metals liquidity, featuring tight spreads and dependable pricing.",
+          "p4": "Commodities",
+          "d4": "Gain deep liquidity, competitive pricing, and seamless execution across metals, energy, and other key commodity markets.",
+          "p5": "Indices",
+          "d5": "Tap into global indices liquidity with tight spreads, rapid execution, and competitive pricing.",
+          "p6": "Energy",
+          "d6": "Access the energy markets with strong liquidity, tight spreads, and reliable execution.",
+          "p7": "Equities",
+          "d7": "Trade global equities via single-stock CFDs, accessing worldwide markets from one platform with seamless execution. "
+        },
+         "two": {
+          "title": "Technology",
+          "d1": "We leverage cutting-edge technology for high-speed trading and advanced analytics, keeping clients ahead in the market.",
+          "p2": "Fix API",
+          "d2": "Our FIX API ensures lightning-fast order execution, low-latency trading, and seamless integration with trading algorithms.",
+          "p3": "VPS",
+          "d3": "Our VPS ensures advanced security, low latency, remote access, uninterrupted trading, easy customization, and automated trading.",
+          "p4": "Algo hosting service",
+          "d4": "We offers a comprehensive algo hosting service designed to empower traders with the tools and resources they need to optimize their trading strategies."
+         },
+         "three": {
+          "title": "Bridge",
+          "p1": "oneZero Hub",
+          "d1": "Experience deep liquidity, ultra-fast execution, real-time data, and a customizable trading environment—secure and efficient trading at its best.",
+          "p2": "PrimeXM XCORE",
+          "d2": "Trade faster, smarter, and safer with deep liquidity, ultra-low latency execution, real-time insights, and secure, flexible trading solutions.",
+          "p3": "Centroid Hub",
+          "d3": "Enhance trading efficiency with deep liquidity, ultra-fast execution, real-time insights, and seamless market connectivity—all secured for optimal performance.",
+          "p4": "GTC Prime Bridges",
+          "d4": "Seamlessly connect to multiple platforms and liquidity providers with fast execution, optimized performance, and secure data transmission."
+         }
+      },
       "point1": "Low spreads & Commissions",
       "point2": "Ultra Fast Execution",
       "point3": "Up to 10 levels of market Depth",
@@ -249,7 +292,8 @@
           "point2": "Sign an IB Agreement",
           "point3": "Introduce Clients",
           "point4": "Start Earning Rebates & Commissions",
-          "label": "Join our specialized ib program"
+          "label": "Join our specialized ib program",
+          "butttonIB": "Become an Introducing Broker"
     },
     "global_presence": {
       "heading": "Our Global Presence",

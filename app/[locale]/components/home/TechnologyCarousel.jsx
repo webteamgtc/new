@@ -3,13 +3,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
+import { useTranslations } from "next-intl";
 
 const TechnologyCarousel = () => {
+ const t= useTranslations("home.liquidity_provider.tab.two")
   const slides = [
-    { title: "Technology", description: "We leverage cutting-edge technology for high-speed trading and advanced analytics, keeping clients ahead in the market." },
-    { title: "Fix API", description: "Our FIX API ensures lightning-fast order execution, low-latency trading, and seamless integration with trading algorithms." },
-    { title: "VPS", description: "Our VPS ensures advanced security, low latency, remote access, uninterrupted trading, easy customization, and automated trading." },
-    { title: "Algo hosting service ", description: "We offers a comprehensive algo hosting service designed to empower traders with the tools and resources they need to optimize their trading strategies" },
+    { title: t("title"), description: t("d1") },
+    { title: t("p2"), description: t("d2") },
+    { title: t("p3"), description: t("d3") },
+    { title: t("p4"), description: t("d4") },
   ];
 
   return (

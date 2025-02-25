@@ -8,10 +8,10 @@ import BridgeCarousel from "./BridgeCarousel";
 import Link from "next/link";
 
 const LiquiditySolutions = () => {
-  const tabs = ["Liquidity", "Technology", "Bridge"];
 
   const t= useTranslations("home.liquidity_provider")
-  
+
+  const tabs = [t("tab.one.title"), t("tab.two.title"), t("tab.three.title")];
   const renderTabContent = (tab) => {
     switch (tab) {
       case "Liquidity":
