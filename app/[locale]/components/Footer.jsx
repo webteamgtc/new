@@ -328,10 +328,10 @@ const Footer = () => {
               {t("footerNotice.eightPara")}{" "}
             </p>
           <div className="flex flex-row flex-wrap justify-center md:justify-start gap-4 items-center">
-                <Link target="_blank" href="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/pdf-files/PRIVACY+POLICY+GTCFX.pdf" className="text-center text-white py-2 w-36 border border-gray-100 border-opacity-10 hover:bg-white hover:text-primary">Privacy Policy</Link>
-                <Link target="_blank" href="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/pdf-files/Risk+Warning.pdf" className="text-center text-white py-2 w-36 border border-gray-100 border-opacity-10 hover:bg-white hover:text-primary">Risk Warning</Link>
-                <Link target="_blank" href="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/pdf-files/Cookie+Policy.pdf" className="text-center text-white py-2 w-36 border border-gray-100 border-opacity-10 hover:bg-white hover:text-primary">Cookie Policy</Link>
-                <Link target="_blank" href="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/pdf-files/Website+Disclaimer.pdf" className="text-center text-white py-2 w-36 border border-gray-100 border-opacity-10 hover:bg-white hover:text-primary">Website Disclaimer</Link>
+                <Link target="_blank" href="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/pdf-files/PRIVACY+POLICY+GTCFX.pdf" className="text-center text-white py-2 w-36 border border-gray-100 border-opacity-10 hover:bg-white hover:text-primary">{t("policy.menu1")}</Link>
+                <Link target="_blank" href="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/pdf-files/Risk+Warning.pdf" className="text-center text-white py-2 w-36 border border-gray-100 border-opacity-10 hover:bg-white hover:text-primary">{t("policy.menu7")}</Link>
+                <Link target="_blank" href="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/pdf-files/Cookie+Policy.pdf" className="text-center text-white py-2 w-36 border border-gray-100 border-opacity-10 hover:bg-white hover:text-primary">{t("policy.menu8")}</Link>
+                <Link target="_blank" href="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/pdf-files/Website+Disclaimer.pdf" className="text-center text-white py-2 w-36 border border-gray-100 border-opacity-10 hover:bg-white hover:text-primary">{t("policy.menu9")}</Link>
           </div>
           </div>
         </div>

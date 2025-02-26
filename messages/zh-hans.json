@@ -147,12 +147,14 @@
           "description": "交易平台",
           "extra": "MT4 | MT5"
         },
-        "slider4": {
-          "heading": "庆祝12年金融行业卓越成就",
-          "subheading": "首届雄鹰颁奖盛典",
-          "description": "与GTCFX交易，跻身顶尖，加入雄鹰奖精英行列！",
-          "buttonText": "了解更多"
-        },
+       "slider4": {
+       "heading": "Deep Liquidity Access",
+      "subheading": "Direct Access to Top-Tier Liquidity Providers"
+      },
+      "slider5": {
+       "heading": "Advanced Technology",
+      "subheading": "Experience Cutting-Edge Trading Infrastructure "
+      },
       "liveAccount": "开设实盘账户",
       "partnerAccount": "成为合作伙伴",
       "fact_no1": 985000,
@@ -206,7 +208,11 @@
         "heading": "ECN账户"
       },
       "view_more": "点击查看更多",
-      "open_live_account": "开设实盘账户"
+      "open_live_account": "开设实盘账户",
+      "assetNum": "+27,000",
+      "assetTit": "Trading Instruments",
+      "assetMar": " Asset Markets",
+      "AssetNam": "Forex | CFDs | Metals | Shares | Commodities | Stocks | Energies"
     },
     "security_of_funds": {
       "title": "资金安全",
@@ -234,6 +240,45 @@
     "liquidity_provider": {
       "heading": "直接接入顶级流动性提供商",
       "desc": "GTCFX为您提供顶级Tier-1外汇流动性平台的市场接入服务，配备先进技术、丰富的流动性储备、极速执行和专业支持。我们坚持交易过程的完全透明和匿名性，同时提供极具竞争力的交易成本。",
+      "tab": {
+         "one": {
+          "title": "Liquidity",
+          "d1": "We provide top-tier liquidity solutions globally, ensuring optimal execution and minimal slippage with deep liquidity and advanced technology.",
+          "p2": "Forex",
+          "d2": "Gain access to deep FX liquidity with 200+ trading pairs, tight spreads, competitive margins, and lightning-fast execution.",
+          "p3": "Metals",
+          "d3": "Enhance your business with deep metals liquidity, featuring tight spreads and dependable pricing.",
+          "p4": "Commodities",
+          "d4": "Gain deep liquidity, competitive pricing, and seamless execution across metals, energy, and other key commodity markets.",
+          "p5": "Indices",
+          "d5": "Tap into global indices liquidity with tight spreads, rapid execution, and competitive pricing.",
+          "p6": "Energy",
+          "d6": "Access the energy markets with strong liquidity, tight spreads, and reliable execution.",
+          "p7": "Equities",
+          "d7": "Trade global equities via single-stock CFDs, accessing worldwide markets from one platform with seamless execution. "
+        },
+         "two": {
+          "title": "Technology",
+          "d1": "We leverage cutting-edge technology for high-speed trading and advanced analytics, keeping clients ahead in the market.",
+          "p2": "Fix API",
+          "d2": "Our FIX API ensures lightning-fast order execution, low-latency trading, and seamless integration with trading algorithms.",
+          "p3": "VPS",
+          "d3": "Our VPS ensures advanced security, low latency, remote access, uninterrupted trading, easy customization, and automated trading.",
+          "p4": "Algo hosting service",
+          "d4": "We offers a comprehensive algo hosting service designed to empower traders with the tools and resources they need to optimize their trading strategies."
+         },
+         "three": {
+          "title": "Bridge",
+          "p1": "oneZero Hub",
+          "d1": "Experience deep liquidity, ultra-fast execution, real-time data, and a customizable trading environment—secure and efficient trading at its best.",
+          "p2": "PrimeXM XCORE",
+          "d2": "Trade faster, smarter, and safer with deep liquidity, ultra-low latency execution, real-time insights, and secure, flexible trading solutions.",
+          "p3": "Centroid Hub",
+          "d3": "Enhance trading efficiency with deep liquidity, ultra-fast execution, real-time insights, and seamless market connectivity—all secured for optimal performance.",
+          "p4": "GTC Prime Bridges",
+          "d4": "Seamlessly connect to multiple platforms and liquidity providers with fast execution, optimized performance, and secure data transmission."
+         }
+      },
       "point1": "低点差和佣金",
       "point2": "超快执行",
       "point3": "提供最多10级市场深度",
@@ -241,7 +286,8 @@
       "point5": "超快价格更新",
       "point6": "快速开户流程",
       "lpLabel": "解锁盈利机遇",
-      "lpLabel1": "您的最佳投资之旅，由此启程"
+      "lpLabel1": "您的最佳投资之旅，由此启程",
+      "butttonLp": "Apply For Liquidity Service"
     },
     "home_IB": {
     "title": "与我们共拓客户网络！",
@@ -251,7 +297,8 @@
     "point2": "签署IB协议",
     "point3": "推荐客户",
     "point4": "开始赚取返佣",
-    "label": "加入专属IB计划"
+    "label": "加入专属IB计划",
+    "butttonIB": "Become an Introducing Broker"
   },
     "global_presence": {
       "heading": "我们的全球业务",
