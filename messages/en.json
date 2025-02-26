@@ -156,7 +156,7 @@
       "liveAccount": "Open Live Account ",
       "partnerAccount": "BECOME A PARTNER",
       "fact_no1": "985,000",
-      "fact_desc1": "+ Served Clients",
+      "fact_desc1": "Served Clients",
       "fact_no2": "27,000",
       "fact_desc2": "Trading Instruments ",
       "no3":"300",
@@ -282,7 +282,8 @@
       "point5": "Ultra Fast Price Feeds",
       "point6": "Fast onboarding Procedure",
       "lpLabel": "UNLOCKING PROFITABLE OPPORTUNITIES",
-      "lpLabel1": "YOUR BEST INVESTMENT JOURNEY BEGINS WITH US"
+      "lpLabel1": "YOUR BEST INVESTMENT JOURNEY BEGINS WITH US",
+      "butttonLp": "Apply For Liquidity Service"
     },
     "home_IB": {
           "title": "Grow Your Clients Network With Us!",
@@ -2634,8 +2635,8 @@
       "menu5": "Due Diligence Policy",
       "menu6": "Terms and Conditions",
       "menu7": "Risk Warning",
-      "menu8": "Company News",
-      "menu9": "Market Overview",
+      "menu8": "Cookie Policy",
+      "menu9": "Website Disclaimer",
       "menu10": "GTC Financial Consultancy LLC (AML) Manual"
     },
     "contact": {
