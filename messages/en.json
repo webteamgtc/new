@@ -237,7 +237,7 @@
       "heading": "Direct Access to Top Tier Liquidity Provider",
       "desc": "GTCFX is a trusted liquidity provider that gives you access to easy-to-use FX liquidity platforms. With our liquidity solutions, you can trade efficiently at low costs and with fast execution. You can count on our transparent and reliable service, ensuring your trades remain private. With our state-of-the-art technology and dedicated team, we support your business in liquidity trading.",
       "tab": {
-         "one": {
+         "liquidity": {
           "title": "Liquidity",
           "d1": "As a leading liquidity provider, we offer the best liquidity solutions globally, ensuring optimal execution and minimal slippage with deep liquidity and advanced technology.",
           "p2": "Forex",
@@ -253,7 +253,7 @@
           "p7": "Equities",
           "d7": "Trade global equities via single-stock CFDs, accessing worldwide markets from one platform with seamless execution. "
         },
-         "two": {
+         "technology": {
           "title": "Technology",
           "d1": "We leverage cutting-edge technology for high-speed trading and advanced analytics, keeping clients ahead in the market.",
           "p2": "Fix API",
@@ -263,7 +263,7 @@
           "p4": "Algo hosting service",
           "d4": "We offers a comprehensive algo hosting service designed to empower traders with the tools and resources they need to optimize their trading strategies."
          },
-         "three": {
+         "bridge": {
           "title": "Bridge",
           "p1": "oneZero Hub",
           "d1": "Experience deep liquidity, ultra-fast execution, real-time data, and a customizable trading environment—secure and efficient trading at its best.",

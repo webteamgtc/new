@@ -124,8 +124,8 @@
   },
   "home": {
     "metaData": {
-      "title": "与排名第一的STP经纪商GTCFX在线交易外汇和差价合约",
-      "des": "使用GTCFX进行外汇、股票、能源、指数和贵金属的在线交易，作为全球领先的STP经纪商，您将享受到超低点差、超快执行等更多优势。立即开始交易！"
+      "title": "GTCFX Forex Broker Offers Low Spreads, Fast Execution, and Secure Trading",
+      "des": "Trade with GTCFX, a trusted forex broker and liquidity provider, to enjoy low spreads, fast deposits and withdrawals, and a secure trading experience. Start trading today."
     },
     "hero": {
       "slider1": {
@@ -142,18 +142,17 @@
           "description": "外汇 | 差价合约 | 贵金属 | 股票 | 大宗商品 | 能源"
         },
         "slider3": {
-          "heading": "体验前沿工具",
-          "subheading": "在极致稳定的",
-          "description": "交易平台",
-          "extra": "MT4 | MT5"
-        },
-       "slider4": {
+      "heading": "Trade Smarter with",
+      "subheading": "Cutting-Edge Tools on",
+      "description": "the Best Trading Platform"
+      },
+      "slider4": {
        "heading": "Deep Liquidity Access",
       "subheading": "Direct Access to Top-Tier Liquidity Providers"
       },
       "slider5": {
-       "heading": "Advanced Technology",
-      "subheading": "Experience Cutting-Edge Trading Infrastructure "
+       "heading": "Experience Advanced",
+      "subheading": "Trading Infrastructure for Seamless Transactions"
       },
       "liveAccount": "开设实盘账户",
       "partnerAccount": "成为合作伙伴",
@@ -197,7 +196,7 @@
     },
     "accountType": {
       "heading": "账户类型",
-      "desc": "开设实盘账户并交易我们具有竞争力的金融产品，享受最低点差，充分利用汇率波动，最大化您的利润。",
+      "desc": "Maximize your profit potential with a live trading account offering low spreads and optimal market access.",
       "standardAccount": {
         "heading": "标准账户"
       },
@@ -239,11 +238,11 @@
     },
     "liquidity_provider": {
       "heading": "直接接入顶级流动性提供商",
-      "desc": "GTCFX为您提供顶级Tier-1外汇流动性平台的市场接入服务，配备先进技术、丰富的流动性储备、极速执行和专业支持。我们坚持交易过程的完全透明和匿名性，同时提供极具竞争力的交易成本。",
+      "desc": "GTCFX is a trusted liquidity provider that gives you access to easy-to-use FX liquidity platforms. With our liquidity solutions, you can trade efficiently at low costs and with fast execution. You can count on our transparent and reliable service, ensuring your trades remain private. With our state-of-the-art technology and dedicated team, we support your business in liquidity trading.",
       "tab": {
          "one": {
           "title": "Liquidity",
-          "d1": "We provide top-tier liquidity solutions globally, ensuring optimal execution and minimal slippage with deep liquidity and advanced technology.",
+          "d1": "As a leading liquidity provider, we offer the best liquidity solutions globally, ensuring optimal execution and minimal slippage with deep liquidity and advanced technology.",
           "p2": "Forex",
           "d2": "Gain access to deep FX liquidity with 200+ trading pairs, tight spreads, competitive margins, and lightning-fast execution.",
           "p3": "Metals",
@@ -291,7 +290,7 @@
     },
     "home_IB": {
     "title": "与我们共拓客户网络！",
-    "des": "开设实盘账户，交易点差最优的金融产品，捕捉利率波动机遇，高效实现盈利最大化。",
+    "des": "Open a live trading account and explore a wide range of financial products with the most favorable spreads. Take advantage of market fluctuations and access top-tier financial services to maximize your profit potential.",
     "howTo": "如何加入IB网络",
     "point1": "申请加入IB网络",
     "point2": "签署IB协议",
