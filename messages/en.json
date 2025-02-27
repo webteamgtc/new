@@ -124,8 +124,8 @@
   },
   "home": {
     "metaData": {
-      "title": "Trade Forex & CFD Online with #1 STP Broker | GTCFX",
-      "des": "Trade forex, stocks, energy, indices, & metals online with GTCFX, the #1 STP Broker, to benefit from tight spreads, ultra-fast execution, & more. Trade now!"
+      "title": "GTCFX Forex Broker Offers Low Spreads, Fast Execution, and Secure Trading",
+      "des": "Trade with GTCFX, a trusted forex broker and liquidity provider, to enjoy low spreads, fast deposits and withdrawals, and a secure trading experience. Start trading today."
     },
     "hero": {
       "slider1": {
@@ -141,17 +141,17 @@
       "subheading2": "Trading Instruments"
       },
       "slider3": {
-      "heading": "Experience Cutting-Edge Trading Tools",
-      "subheading": "on the Most Stable",
-      "description": "Trading Platform"
+      "heading": "Trade Smarter with",
+      "subheading": "Cutting-Edge Tools on",
+      "description": "the Best Trading Platform"
       },
       "slider4": {
        "heading": "Deep Liquidity Access",
       "subheading": "Direct Access to Top-Tier Liquidity Providers"
       },
       "slider5": {
-       "heading": "Advanced Technology",
-      "subheading": "Experience Cutting-Edge Trading Infrastructure "
+       "heading": "Experience Advanced",
+      "subheading": "Trading Infrastructure for Seamless Transactions"
       },
       "liveAccount": "Open Live Account ",
       "partnerAccount": "BECOME A PARTNER",
@@ -194,7 +194,7 @@
     },
     "accountType": {
       "heading": "Account Types",
-      "desc": "Unlock profit potential by opening a live account with competitive spreads",
+      "desc": "Maximize your profit potential with a live trading account offering low spreads and optimal market access.",
       "standardAccount": {
         "heading": "Standard Account"
       },
@@ -235,11 +235,11 @@
     },
     "liquidity_provider": {
       "heading": "Direct Access to Top Tier Liquidity Provider",
-      "desc": "GTCFX provides market access to prominent Tier-1 FX Liquidity platforms, equipping your enterprise with cutting-edge technology, an extensive Liquidity reservoir, lightning-fast execution, and expert support. we uphold full transparency and trading anonymity while offering ultra-competetive trading costs",
+      "desc": "GTCFX is a trusted liquidity provider that gives you access to easy-to-use FX liquidity platforms. With our liquidity solutions, you can trade efficiently at low costs and with fast execution. You can count on our transparent and reliable service, ensuring your trades remain private. With our state-of-the-art technology and dedicated team, we support your business in liquidity trading.",
       "tab": {
          "one": {
           "title": "Liquidity",
-          "d1": "We provide top-tier liquidity solutions globally, ensuring optimal execution and minimal slippage with deep liquidity and advanced technology.",
+          "d1": "As a leading liquidity provider, we offer the best liquidity solutions globally, ensuring optimal execution and minimal slippage with deep liquidity and advanced technology.",
           "p2": "Forex",
           "d2": "Gain access to deep FX liquidity with 200+ trading pairs, tight spreads, competitive margins, and lightning-fast execution.",
           "p3": "Metals",
@@ -287,7 +287,7 @@
     },
     "home_IB": {
           "title": "Grow Your Clients Network With Us!",
-          "des": "Unlock the potential for profit by opening a live account and trading our competitive financial products with the most favorable spreads. Seize opportunities in rate fluctuations to maximize your profits effectively.",
+          "des": "Open a live trading account and explore a wide range of financial products with the most favorable spreads. Take advantage of market fluctuations and access top-tier financial services to maximize your profit potential.",
           "howTo": "How to Join Our IB Network",
           "point1": "Apply to Join our IB Network",
           "point2": "Sign an IB Agreement",
@@ -614,7 +614,7 @@
         "des": "Unlock the potential for profit by opening a live account and trading our competitive financial products with the most favorable spreads. "
       },
       "title": "Account Types",
-      "subtitle": "Unlock the potential for profit by opening a live account and trading our competitive financial products with the most favorable spreads. Seize opportunities in rate fluctuations to maximize your profits effectively.",
+      "subtitle": "Open a live trading account and explore a wide range of financial products with the most favorable spreads. Take advantage of market fluctuations and access top-tier financial services to maximize your profit potential.",
       "standard_account": {
         "title": "Standard Account",
         "point1": "No minimum deposit",
