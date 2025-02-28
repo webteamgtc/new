@@ -6,7 +6,7 @@ import { Pagination, Autoplay } from "swiper/modules";
 import { useTranslations } from "next-intl";
 
 const TechnologyCarousel = () => {
- const t= useTranslations("home.liquidity_provider.tab.two")
+ const t= useTranslations("home.liquidity_provider.tab.technology")
   const slides = [
     { title: t("title"), description: t("d1") },
     { title: t("p2"), description: t("d2") },

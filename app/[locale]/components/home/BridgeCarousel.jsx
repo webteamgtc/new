@@ -7,7 +7,7 @@ import { useTranslations } from "next-intl";
 
 const BridgeCarousel = () => {
 
- const t= useTranslations("home.liquidity_provider.tab.three")
+ const t= useTranslations("home.liquidity_provider.tab.bridge")
   const slides = [
     { title: t("p1"), description: t("d1") },
     { title: t("p2"), description: t("d2") },

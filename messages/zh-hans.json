@@ -124,79 +124,85 @@
   },
   "home": {
     "metaData": {
-      "title": "GTCFX Forex Broker Offers Low Spreads, Fast Execution, and Secure Trading",
-      "des": "Trade with GTCFX, a trusted forex broker and liquidity provider, to enjoy low spreads, fast deposits and withdrawals, and a secure trading experience. Start trading today."
+      "title": "GTCFX外汇经纪商提供超低点差、极速执行与安全交易环境",
+      "des": "选择GTCFX——值得信赖的外汇经纪商与流动性提供商，享受超低点差、极速出入金与银行级安全保障。立即开始交易"
     },
     "hero": {
       "slider1": {
-          "heading": "交易、投资与合作",
-          "subheading": "与全球信赖且受监管的",
-          "description": "金融衍生品行业引领者"
-        },
-        "slider2": {
-          "heading": "接入",
-          "heading1": "8",
-          "heading2": "大市场",
-          "subheading": "超过27,000种",
-          "subheading2": "交易品种",
-          "description": "外汇 | 差价合约 | 贵金属 | 股票 | 大宗商品 | 能源"
-        },
-        "slider3": {
-      "heading": "Trade Smarter with",
-      "subheading": "Cutting-Edge Tools on",
-      "description": "the Best Trading Platform"
+        "heading": "交易、投资与合作",
+        "subheading": "与全球信赖且受监管的",
+        "description": "金融衍生品行业引领者"
+      },
+      "slider2": {
+        "heading": "接入",
+        "heading1": "8",
+        "heading2": "大市场",
+        "subheading": "超过27,000种",
+        "subheading2": "交易品种",
+        "description": "外汇 | 差价合约 | 贵金属 | 股票 | 大宗商品 | 能源"
+      },
+      "slider3": {
+        "heading": "依托顶尖交易平台",
+        "subheading": "与智能工具",
+        "description": "开启高阶交易模式"
       },
       "slider4": {
-       "heading": "Deep Liquidity Access",
-      "subheading": "Direct Access to Top-Tier Liquidity Providers"
+        "heading": "深度流动性接入",
+        "subheading": "直连顶级流动性池"
       },
       "slider5": {
-       "heading": "Experience Advanced",
-      "subheading": "Trading Infrastructure for Seamless Transactions"
+        "heading": "体验前沿",
+        "subheading": "无缝化交易基础设施"
       },
-      "liveAccount": "开设实盘账户",
+      "title1": "可信赖",
+      "desc1": "深耕金融衍生品领域，以持续增长与客户至上理念赢得全球信赖",
+      "title2": "受监管",
+      "desc2": "恪守国际监管准则，构建跨市场信任体系与责任经营范式",
+      "title3": "全球化",
+      "desc3": "服务100+国家逾985,000客户，通过多元产品矩阵保障全球金融生态稳定",
+      "liveAccount": "开通实盘账户",
       "partnerAccount": "成为合作伙伴",
       "fact_no1": 985000,
       "fact_desc1": "服务客户数",
-      "fact_no2": "27,000",
-      "fact_desc2": "交易产品种类",
-      "no3": "300",
-      "fact_no3": "",
+      "fact_no2": 27000,
+      "fact_desc2": "交易品种",
+      "no3": 300,
+      "fact_no3": null,
       "fact_syn1": "$",
-      "fact_desc3": "业务覆盖国家",
-      "no4": "135",
-      "fact_no4": "亿",
+      "fact_desc3": "极致点差",
+      "no4": "1350亿",
+      "fact_no4": "1350亿",
       "fact_desc4": "每月交易额"
     },
     "whyGTC": {
-      "title": "与全球顶级的在线交易平台进行投资",
-      "desc": "使用最稳定的交易平台交易超过27,000种金融产品，我们的MetaTrader平台提供极具优势的点差。",
+      "title": "全球顶尖在线交易平台",
+      "desc": "通过行业标杆级MetaTrader平台交易27,000+金融产品，尽享稳定交易环境与优势点差",
       "first": {
         "title": "点差",
         "heading": "超低点差",
-        "description": "提供行业内最低点差，外汇0点起，黄金5美分起"
+        "description": "外汇0点差起，黄金5美分起"
       },
       "second": {
         "title": "产品",
-        "heading": "交易产品",
-        "description": "访问跨越七大交易市场的超过27,000种金融产品"
+        "heading": "交易品种",
+        "description": "八大市场27,000+交易品种"
       },
       "third": {
         "title": "杠杆",
-        "heading": "最佳杠杆",
-        "description": "提供最高1:2000的杠杆，最低保证金要求仅需0.1%"
+        "heading": "超高杠杆",
+        "description": "最高1:2000杠杆，最低0.1%保证金要求"
       },
       "fourth": {
         "title": "执行",
-        "heading": "超快执行",
-        "description": "以顶级流动性进行交易，确保快速且安全的执行，仅需10毫秒"
+        "heading": "极速执行",
+        "description": "顶级流动性保障，10毫秒极速订单处理，安全执行"
       },
-      "desc2": "最大化您的利润",
-      "open_live_account": "开设实盘账户"
+      "desc2": "高效提升收益",
+      "open_live_account": "开通实盘账户"
     },
     "accountType": {
       "heading": "账户类型",
-      "desc": "Maximize your profit potential with a live trading account offering low spreads and optimal market access.",
+      "desc": "开通实盘账户，把握最优势点差交易机遇",
       "standardAccount": {
         "heading": "标准账户"
       },
@@ -207,101 +213,99 @@
         "heading": "ECN账户"
       },
       "view_more": "点击查看更多",
-      "open_live_account": "开设实盘账户",
-      "assetNum": "+27,000",
-      "assetTit": "Trading Instruments",
-      "assetMar": " Asset Markets",
-      "AssetNam": "Forex | CFDs | Metals | Shares | Commodities | Stocks | Energies"
+      "open_live_account": "开通实盘账户",
+      "assetNum": "27,000+",
+      "assetTit": "交易品种",
+      "assetMar": "多元资产市场",
+      "AssetNam": "外汇 | 差价合约 | 贵金属 | 股指| 大宗商品 | 股票| 能源"
     },
     "security_of_funds": {
-      "title": "资金安全",
-      "desc": "GTCFX已为客户资金投保，提供最高达2万欧元的保障。详情请点击此处"
+      "title": "资金安全保障",
+      "desc": "GTCFX已获得金融委员会专项保险保障，单个客户资金最高可获得20,000欧元赔付。点击查看详情"
     },
     "products": {
-      "heading": "接入8大资产市场，交易产品超过27,000种",
-      "title1": "外汇",
-      "desc1": "全球货币对",
-      "title2": "黄金",
-      "desc2": "发现优势",
+      "heading": "8大市场板块 27,000+交易品种",
+      "title1": "外汇交易",
+      "desc1": "全球主要货币对",
+      "title2": "黄金交易",
+      "desc2": "发掘避险资产独特优势",
       "title3": "贵金属",
-      "desc3": "白银、钯金等",
-      "title4": "能源",
-      "desc4": "石油、天然气及所有主要能源",
+      "desc3": "白银、钯金等稀缺金属",
+      "title4": "能源差价合约",
+      "desc4": "原油、天然气等核心能源产品",
       "title5": "大宗商品",
       "desc5": "全球主要大宗商品",
       "title7": "期货",
-      "desc7": "无佣金买卖股票，且保证金低",
+      "desc7": "零佣金低保证金买卖上市公司股份",
       "title6": "股票",
-      "desc6": "超过600家公司",
+      "desc6": "覆盖600+国际企业股票",
       "title8": "股指",
       "desc8": "全球主要股指"
     },
     "liquidity_provider": {
-      "heading": "直接接入顶级流动性提供商",
-      "desc": "GTCFX is a trusted liquidity provider that gives you access to easy-to-use FX liquidity platforms. With our liquidity solutions, you can trade efficiently at low costs and with fast execution. You can count on our transparent and reliable service, ensuring your trades remain private. With our state-of-the-art technology and dedicated team, we support your business in liquidity trading.",
+      "heading": "直通顶级流动性池",
+      "desc": "GTCFX作为可信赖的流动性提供商，为您对接高效易用的外汇流动性平台。我们的解决方案确保低成本交易与极速执行，以透明可靠的服务保障交易隐私。凭借尖端科技与专业团队，为您的流动性交易提供全方位支持。",
       "tab": {
-         "one": {
-          "title": "Liquidity",
-          "d1": "As a leading liquidity provider, we offer the best liquidity solutions globally, ensuring optimal execution and minimal slippage with deep liquidity and advanced technology.",
-          "p2": "Forex",
-          "d2": "Gain access to deep FX liquidity with 200+ trading pairs, tight spreads, competitive margins, and lightning-fast execution.",
-          "p3": "Metals",
-          "d3": "Enhance your business with deep metals liquidity, featuring tight spreads and dependable pricing.",
-          "p4": "Commodities",
-          "d4": "Gain deep liquidity, competitive pricing, and seamless execution across metals, energy, and other key commodity markets.",
-          "p5": "Indices",
-          "d5": "Tap into global indices liquidity with tight spreads, rapid execution, and competitive pricing.",
-          "p6": "Energy",
-          "d6": "Access the energy markets with strong liquidity, tight spreads, and reliable execution.",
-          "p7": "Equities",
-          "d7": "Trade global equities via single-stock CFDs, accessing worldwide markets from one platform with seamless execution. "
+        "liquidity": {
+          "title": "流动性解决方案",
+          "d1": "作为全球顶尖流动性提供商，我通过深度流动性储备与先进技术，提供最优执行质量与零滑点保障",
+          "p2": "外汇",
+          "d2": "200+货币对深度流动性·超窄点差·灵活保证金·毫秒级执行",
+          "p3": "贵金属",
+          "d3": "贵金属深度流动性 |稳定报价 |行业领先点差",
+          "p4": "大宗商品",
+          "d4": "能源、贵金属等大宗商品市场深度流动性 |优势定价 |无缝执行",
+          "p5": "股指",
+          "d5": "全球股指深度流动性 |超快执行 |竞争力定价",
+          "p6": "能源",
+          "d6": "能源市场强劲流动性 |窄幅点差 |可靠执行",
+          "p7": "股票",
+          "d7": "全球个股CFDs交易 |一站式市场接入 |无缝化执行"
         },
-         "two": {
-          "title": "Technology",
-          "d1": "We leverage cutting-edge technology for high-speed trading and advanced analytics, keeping clients ahead in the market.",
-          "p2": "Fix API",
-          "d2": "Our FIX API ensures lightning-fast order execution, low-latency trading, and seamless integration with trading algorithms.",
+        "technology": {
+          "title": "交易技术",
+          "d1": "运用前沿技术实现高速交易与智能分析，助您抢占市场先机",
+          "p2": "FIX API",
+          "d2": "毫秒级订单执行 | 超低延迟交易 | 交易算法无缝集成",
           "p3": "VPS",
-          "d3": "Our VPS ensures advanced security, low latency, remote access, uninterrupted trading, easy customization, and automated trading.",
-          "p4": "Algo hosting service",
-          "d4": "We offers a comprehensive algo hosting service designed to empower traders with the tools and resources they need to optimize their trading strategies."
-         },
-         "three": {
-          "title": "Bridge",
+          "d3": "军工级安全 | 超低延迟 | 远程接入 | 7×24小时无间断交易 | 个性化配置 | 智能交易支持",
+          "p4": "算法托管服务",
+          "d4": "提供全方位的算法托管服务，赋能交易者优化策略表现"
+        },
+        "bridge": {
+          "title": "流动性桥接",
           "p1": "oneZero Hub",
-          "d1": "Experience deep liquidity, ultra-fast execution, real-time data, and a customizable trading environment—secure and efficient trading at its best.",
+          "d1": "深度流动性 | 极速执行 | 实时数据流 | 可定制交易环境——安全高效的终极交易体验",
           "p2": "PrimeXM XCORE",
-          "d2": "Trade faster, smarter, and safer with deep liquidity, ultra-low latency execution, real-time insights, and secure, flexible trading solutions.",
+          "d2": "深度流动性 | 微秒级延迟 | 实时洞见 | 安全灵活的交易解决方案",
           "p3": "Centroid Hub",
-          "d3": "Enhance trading efficiency with deep liquidity, ultra-fast execution, real-time insights, and seamless market connectivity—all secured for optimal performance.",
-          "p4": "GTC Prime Bridges",
-          "d4": "Seamlessly connect to multiple platforms and liquidity providers with fast execution, optimized performance, and secure data transmission."
-         }
+          "d3": "深度流动性 | 超高频执行 | 实时分析 | 无缝市场对接——性能优化的安全交易生态",
+          "p4": "GTC Prime流动性桥接系统",
+          "d4": "多平台无缝对接 | 极速执行 | 性能优化 | 加密数据传输"
+        }
       },
-      "point1": "低点差和佣金",
-      "point2": "超快执行",
-      "point3": "提供最多10级市场深度",
-      "point4": "快速系统整合",
-      "point5": "超快价格更新",
-      "point6": "快速开户流程",
-      "lpLabel": "解锁盈利机遇",
-      "lpLabel1": "您的最佳投资之旅，由此启程",
-      "butttonLp": "Apply For Liquidity Service"
+      "butttonLp": "申请流动性服务",
+      "point1": "超低点差与佣金",
+      "point2": "极速执行",
+      "point3": "10档市场深度",
+      "point4": "快速系统对接",
+      "point5": "极速价格反馈",
+      "point6": "精简开户流程"
     },
     "home_IB": {
-    "title": "与我们共拓客户网络！",
-    "des": "Open a live trading account and explore a wide range of financial products with the most favorable spreads. Take advantage of market fluctuations and access top-tier financial services to maximize your profit potential.",
-    "howTo": "如何加入IB网络",
-    "point1": "申请加入IB网络",
-    "point2": "签署IB协议",
-    "point3": "推荐客户",
-    "point4": "开始赚取返佣",
-    "label": "加入专属IB计划",
-    "butttonIB": "Become an Introducing Broker"
-  },
+      "title": "与我们共拓客户网络！",
+      "des": "开通实盘账户，畅享海量金融产品与最优点差。把握市场波动机遇，对接顶级金融服务，释放最大盈利潜力",
+      "howTo": "如何加入IB网络",
+      "point1": "申请加入IB网络",
+      "point2": "签署IB协议",
+      "point3": "推荐客户",
+      "point4": "开始赚取返佣",
+      "label": "加入专属IB计划",
+       "butttonIB": "成为介绍经纪人（IB）"
+    },
     "global_presence": {
-      "heading": "我们的全球业务",
-      "desc": "在GTCFX，我们是一支全球团队，业务遍布全球22个以上国家。从繁华城市到偏远角落，我们多元化的网络使我们能够与全球客户连接，为他们提供个性化的金融解决方案，我们对客户的承诺没有界限。",
+      "heading": "GTCFX的全球业务",
+      "desc": "GTCFX作为全球化金融科技企业，业务版图已扩展至全球22个战略枢纽。从国际金融中心到新兴市场前沿，我们通过多元化服务网络为全球投资者提供定制化金融解决方案。GTCFX始终以无界服务承诺践行全球化发展理念。",
       "uae": "阿联酋",
       "uk": "英国",
       "china": "中国",
@@ -328,16 +332,16 @@
     },
     "markets_ct": {
       "title": "市场概览",
-      "sub_title": "获取全球3000多个市场的重要数据，关注信息更新。获取最新动态、交易者动态、点差、价格走势等更多信息。"
+      "sub_title": "实时追踪3,000+个市场的关键数据，获取最新行情资讯、交易情绪分析、动态点差数据及价格走势研判，助您把握全球投资线索。"
     },
     "tabsMarter": {
-      "title1": "最活跃交易",
+      "title1": "热门交易品类",
       "title2": "外汇",
       "title3": "大宗商品",
       "title4": "股指"
     },
-    "our-payment": "\n支付方式、支持的卡种及货币：",
-    "our-payment2": "我们接受使用Visa和MasterCard的信用卡和借记卡在线支付，支付币种为AED（以及支付页面列出的其他可用货币）。"
+    "our-payment": "入金方式及币种：",
+    "our-payment2": "支持Visa/MasterCard信用卡/借记卡在线支付，接受AED（阿联酋迪拉姆）及支付页面显示的其他币种。"
   },
   "about": {
     "metaData": {
