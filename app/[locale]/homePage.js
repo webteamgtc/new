@@ -28,7 +28,7 @@ export default function HomePage() {
 
   const statsOne = [
     { value: 985000, description: t("hero.fact_desc1"), prepend: "+" },
-    { value: 27000, description: t("hero.fact_desc2"), symbol: "", prepend: false, },
+    { value: 27000, description: t("hero.fact_desc2"), symbol: "", prepend: "+", },
     { value: 20, description: t("hero.fact_desc3"), bold: t("hero.fact_no3"), prepend: "+", },
     {
       value: dynamicValue, // Dynamically set based on locale
